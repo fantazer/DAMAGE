@@ -1,0 +1,55 @@
+// block header
+.header
+	position absolute
+	top 0
+	left 0
+	width 100%
+.header__logo
+	+below(768px)
+		font-size 16px
+	font-size 26px
+	font-weight  700 
+	color white
+.header-wraper
+	flex(between)
+	padding 20px 0
+.header-nav
+	+below(768px)
+		display none 
+		width 100%
+		position absolute
+		background #a22525
+		top 100%
+		left 0px
+	width 40%
+.header-nav-wraper
+	+below(768px)
+		fw()
+	flex(between)
+.header__el
+	+below(768px)
+		width 100%
+		text-align center
+		padding 10px
+		color white
+	a
+		up()
+		font-size 16px
+		color white
+.header__cont
+	+below(768px)
+		font-size 16px
+		flex(around)
+		.icon-bars
+			margin-left 10px
+	font-size 26px
+	font-weight 700 
+	color white
+	font-weight 700 
+.header__toggle
+	+below(768px)
+		display inline 
+	cp()
+	display none 
+	color white
+	font-size 22px

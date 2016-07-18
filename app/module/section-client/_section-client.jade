@@ -1,0 +1,10 @@
+mixin section-client()
+	// block section-client
+	.section.section-client
+		.main-cont
+			.type.type--lg Наши клиенты
+			.client.owl-carousel
+				- for (var a = 1; a < 12; a++)
+					img(src="img/clients/b-ico-#{a}.png", alt="")
+
+						

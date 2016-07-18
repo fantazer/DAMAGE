@@ -1,0 +1,16 @@
+{
+	"block":{
+		"header":"header",
+		"main-section":"main-section",
+		"section-service":"section-service",
+		"section-company":"section-company",
+		"section-work":"section-work",
+		"section-get":"section-get",
+		"section-number":"section-number",
+		"section-client":"section-client",
+		"section-contact":"section-contact"
+	},
+	"page":{
+		"index":"index"
+	}
+}

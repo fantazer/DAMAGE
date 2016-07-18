@@ -1,0 +1,43 @@
+// block section-company
+.section-company
+	padding 0
+	display flex
+.section-company__image
+	+below(768px)
+		width 10%
+	background-image url(/img/image-1.jpg) 
+	background-size cover
+	background-repeat no-repeat 
+	background-position  top right
+	width 40%
+	position relative
+.section-company__info
+	+below(992px)
+		width 100%
+		padding 80px
+	+below(768px)
+		padding 40px 20px
+	fl()
+	flex(mid)
+	align-items flex-start
+	width 60%
+	padding 140px
+	p
+		+below(768px)
+			width 100%
+		width 70%
+	.type
+		text-align left
+		width 100%
+.company__lg-title
+	up()
+	width 100%
+	font-size 40px 
+	color black
+	position relative
+.company__md-title
+	up()
+	width 100%
+	color black
+	position relative
+	

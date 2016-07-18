@@ -1,0 +1,22 @@
+//Include style
+include block_html/_style.jade
+body
+	//Include header
+	include block_html/_const.jade
+	include ../module/**/*.jade
+	
+	+main-section()
+	+section-service()
+	+section-company()
+	+section-work()
+	+section-get()
+	+section-number()
+	+section-client()
+	+section-contact()
+
+
+	//Include footer
+	include ./block_html/_script.jade
+
+
+
