@@ -12,6 +12,7 @@
     "gulp-autoprefixer": "^2.3.1",
     "gulp-cached": "^1.1.0",
     "gulp-combine-mq": "^0.4.0",
+    "gulp-csscomb": "^3.0.7",
     "gulp-data": "^1.2.1",
     "gulp-filter": "*",
     "gulp-if": "^1.2.5",
@@ -33,10 +34,10 @@
     "gulp.spritesmith": "^6.2.1",
     "imagemin-mozjpeg": "^5.1.0",
     "imagemin-pngquant": "^4.2.0",
+    "jeet": "6.1.2",
     "run-sequence": "^1.1.5",
     "rupture": "^0.6.1",
-    "vinyl-ftp": "^0.4.4",
-    "jeet": "6.1.2"
+    "vinyl-ftp": "^0.4.4"
   },
   "dependencies": {}
 }

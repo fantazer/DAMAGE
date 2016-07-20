@@ -1,14 +1,19 @@
 // block section-contact
 .contact
+	+below(768px)
+		fw()
 	flex(between)
-	fw()
-	align-items flex-start
+	align-items initial
 	.type
 		text-align left
 .contact__form
 	+below(768px)
 		width 100%
+		button
+			width 100%
 	width 48%
+	padding 30px
+	background #f0f0f0
 	input
 		width 100%
 		margin-bottom 20px
@@ -18,11 +23,18 @@
 .section__contact
 	background grey
 .contact__text
-	+below(768px)
-		width 100%
-	width 48%
+	padding 30px
+	background #f0f0f0
+	margin-bottom 20px
 .contact__phone
 	+below(768px)
 		font-size 24px
 	font-size 42px 
+.contact__info
+	+below(768px)
+		width 100%
+	width 48%
+	f()
+	fl()
+
 	

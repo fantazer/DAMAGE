@@ -8,7 +8,8 @@
 		"section-get":"section-get",
 		"section-number":"section-number",
 		"section-client":"section-client",
-		"section-contact":"section-contact"
+		"section-contact":"section-contact",
+		"footer":"footer"
 	},
 	"page":{
 		"index":"index"

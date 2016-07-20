@@ -1,4 +1,3 @@
-/* -------------- style for sprite --------------*/
 /*
 Icon classes can be used entirely standalone. They are named after their original file names.
 
@@ -36,7 +35,6 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
   height: 480px;
 }
 
-/* -------------- style for font-icon --------------*/
 [data-icon]:before {
   font-family: "main" !important;
   content: attr(data-icon);
@@ -112,7 +110,6 @@ To change `display` (e.g. `display: inline-block;`), we suggest using a common C
 
 /*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImljb24vc3R5bGUuc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLGFBQWEsa0JBQWI7RUFDQSxTQUF1QixnQkFBdkI7RUFDQSxZQUFZLGtCQUFaO0VBQ0EsYUFBYSxrQkFBYjtFQUNBLGNBQWMsa0JBQWQ7RUFDQSxnQkFBZ0IsZ0JBQWhCO0VBQ0EsT0FBTyxLQUFQO0VBQ0EsYUFBYSxFQUFiO0VBQ0Esd0JBQXdCLFlBQXhCO0VBQ0EseUJBQXlCLFVBQXpCOztBQUdGO0FBQXdCO0VBRXRCLGFBQWEsa0JBQWI7RUFDQSxZQUFZLGtCQUFaO0VBQ0EsYUFBYSxrQkFBYjtFQUNBLGNBQWMsa0JBQWQ7RUFDQSxnQkFBZ0IsZ0JBQWhCO0VBQ0EsT0FBTyxLQUFQO0VBQ0EsYUFBYSxFQUFiO0VBQ0Esd0JBQXdCLFlBQXhCO0VBQ0EseUJBQXlCLFVBQXpCOztBQUdGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUVGO0VBQ0UsU0FBUyxNQUFUOztBQUdGO0VBQ0UsU0FBUyxNQUFUIiwiZmlsZSI6Imljb24vc3R5bGUuY3NzIiwic291cmNlUm9vdCI6Ii9zb3VyY2UvIiwic291cmNlc0NvbnRlbnQiOlsiW2RhdGEtaWNvbl06YmVmb3JlIHtcclxuICBmb250LWZhbWlseTogXCJtYWluXCIgIWltcG9ydGFudDtcclxuICBjb250ZW50OiBhdHRyKGRhdGEtaWNvbik7XHJcbiAgZm9udC1zdHlsZTogbm9ybWFsICFpbXBvcnRhbnQ7XHJcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbCAhaW1wb3J0YW50O1xyXG4gIGZvbnQtdmFyaWFudDogbm9ybWFsICFpbXBvcnRhbnQ7XHJcbiAgdGV4dC10cmFuc2Zvcm06IG5vbmUgIWltcG9ydGFudDtcclxuICBzcGVhazogbm9uZTtcclxuICBsaW5lLWhlaWdodDogMTtcclxuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcclxuICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xyXG59XHJcblxyXG5bY2xhc3NePVwiaWNvbi1cIl06YmVmb3JlLFxyXG5bY2xhc3MqPVwiIGljb24tXCJdOmJlZm9yZSB7XHJcbiAgZm9udC1mYW1pbHk6IFwibWFpblwiICFpbXBvcnRhbnQ7XHJcbiAgZm9udC1zdHlsZTogbm9ybWFsICFpbXBvcnRhbnQ7XHJcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbCAhaW1wb3J0YW50O1xyXG4gIGZvbnQtdmFyaWFudDogbm9ybWFsICFpbXBvcnRhbnQ7XHJcbiAgdGV4dC10cmFuc2Zvcm06IG5vbmUgIWltcG9ydGFudDtcclxuICBzcGVhazogbm9uZTtcclxuICBsaW5lLWhlaWdodDogMTtcclxuICAtd2Via2l0LWZvbnQtc21vb3RoaW5nOiBhbnRpYWxpYXNlZDtcclxuICAtbW96LW9zeC1mb250LXNtb290aGluZzogZ3JheXNjYWxlO1xyXG59XHJcblxyXG4uaWNvbi1hbmdsZS1yaWdodDpiZWZvcmUge1xyXG4gIGNvbnRlbnQ6IFwiXFw2MVwiO1xyXG59XHJcbi5pY29uLWFuZ2xlLWxlZnQ6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcNjJcIjtcclxufVxyXG4uaWNvbi1hbmdsZS1kb3duOmJlZm9yZSB7XHJcbiAgY29udGVudDogXCJcXDYzXCI7XHJcbn1cclxuLmljb24tYW5nbGUtdXA6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcNjRcIjtcclxufVxyXG4uaWNvbi1iYXJzOmJlZm9yZSB7XHJcbiAgY29udGVudDogXCJcXDY2XCI7XHJcbn1cclxuLmljb24tdGltZXM6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcNjVcIjtcclxufVxyXG4uaWNvbi1oZWFydDpiZWZvcmUge1xyXG4gIGNvbnRlbnQ6IFwiXFw2N1wiO1xyXG59XHJcbi5pY29uLWhlYXJ0LW86YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcNjhcIjtcclxufVxyXG4uaWNvbi1mYWNlYm9vay1vZmZpY2lhbDpiZWZvcmUge1xyXG4gIGNvbnRlbnQ6IFwiXFw2OVwiO1xyXG59XHJcbi5pY29uLXR3aXR0ZXI6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcNmFcIjtcclxufVxyXG4uaWNvbi12azpiZWZvcmUge1xyXG4gIGNvbnRlbnQ6IFwiXFw2YlwiO1xyXG59XHJcbi5pY29uLW9kbm9rbGFzc25pa2k6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcNmNcIjtcclxufVxyXG4uaWNvbi1zZWFyY2g6YmVmb3JlIHtcclxuICBjb250ZW50OiBcIlxcNmRcIjtcclxufVxyXG4uaWNvbi1zdGFyOmJlZm9yZSB7XHJcbiAgY29udGVudDogXCJcXDZlXCI7XHJcbn1cclxuLmljb24tc3Rhci1vOmJlZm9yZSB7XHJcbiAgY29udGVudDogXCJcXDZmXCI7XHJcbn1cclxuXHJcbi5pY29uLWNoZWNrOmJlZm9yZSB7XHJcbiAgY29udGVudDogXCJcXDcwXCI7XHJcbn0iXX0= */
 
-/* -------------- style for reset --------------*/
 a:hover {
   text-decoration: none;
 }
@@ -165,7 +162,6 @@ textarea {
   src: url("../fonts/main.eot"); /* IE9*/
   src: url("../fonts/main.eot?#iefix") format("embedded-opentype"), url("../fonts/main.woff") format("woff"), url("../fonts/main.ttf") format("truetype"), url("../fonts/main.svg#Futura LT W01 Book") format("svg"); /* iOS 4.1- */
 }
-/* -------------- style for elements --------------*/
 .type--xs {
   font-size: 10px;
 }
@@ -191,7 +187,6 @@ textarea {
   .type {
     font-size: 14px;
     padding-bottom: 20px;
-    text-align: left;
   }
 }
 .type--md {
@@ -281,6 +276,9 @@ textarea {
   animation: slideInDown 1s 1 ease-in-out;
   z-index: 9999;
   box-shadow: 0px 3px 8px #6f6f6f;
+}
+.shrink .header__logo {
+  background-image: url("../img/logo-dark.png");
 }
 .shrink .header-nav a {
   color: #111 !important;
@@ -463,7 +461,7 @@ table tbody tr:hover th {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #de1b1b;
+  background: #485096;
   opacity: 0.7;
 }
 .filter--dark {
@@ -508,16 +506,14 @@ table tbody tr:hover th {
     transform: translate3d(0, 0, 0);
   }
 }
-/* -------------- style for fonts --------------*/
 @font-face {
   font-family: "main";
   src: url("../fonts/main.eot"); /* IE9*/
   src: url("../fonts/main.eot?#iefix") format("embedded-opentype"), url("../fonts/main.woff") format("woff"), url("../fonts/main.ttf") format("truetype"), url("../fonts/main.svg#Futura LT W01 Book") format("svg"); /* iOS 4.1- */
 }
-/* -------------- style basic --------------*/
 body {
   font-size: 14px;
-  font-family: PT Sans;
+  font-family: 'Open Sans';
   overflow-x: hidden;
   color: #616161;
 }
@@ -548,7 +544,43 @@ body {
     width: 1200px;
   }
 }
-/* -------------- style from include block --------------*/
+.footer-wraper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  padding-bottom: 40px;
+}
+.footer__logo {
+  max-width: 250px;
+  margin: 20px 0;
+}
+.footer__service {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .footer__service {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-size: 12px;
+  }
+}
+.footer__service a {
+  text-transform: uppercase;
+  color: #fff;
+}
+.footer__nav {
+  background: #485096;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
 .header {
   position: absolute;
   top: 0;
@@ -556,20 +588,23 @@ body {
   width: 100%;
 }
 .header__logo {
-  font-size: 26px;
-  font-weight: 700;
-  color: #fff;
+  height: 50px;
+  background-image: url("../img/logo-light.png");
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 @media only screen and (max-width: 768px) {
   .header__logo {
-    font-size: 16px;
+    width: 120px;
+    height: 30px;
   }
 }
 .header-wraper {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 .header-nav {
   width: 40%;
@@ -637,12 +672,13 @@ body {
 .header__toggle:hover {
   cursor: pointer;
 }
+/* block main-section !*/
 .main-section {
   width: 100%;
   height: 100vh;
   position: relative;
   background: #de1b1b;
-  background: radial-gradient(#c57272 10px, #de1b1b);
+  background: radial-gradient(#8892c0 10px, #485096);
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -651,6 +687,11 @@ body {
 .main-baner {
   max-width: 1100px;
   width: 80%;
+}
+@media only screen and (max-width: 1440px) {
+  .main-baner {
+    width: 50%;
+  }
 }
 @media only screen and (max-width: 768px) {
   .main-baner {
@@ -680,7 +721,7 @@ body {
   display: flex;
 }
 .section-company__image {
-  background-image: url("/img/image-1.jpg");
+  background-image: url("../img/image-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top right;
@@ -689,6 +730,7 @@ body {
 }
 @media only screen and (max-width: 768px) {
   .section-company__image {
+    background: #485096;
     width: 10%;
   }
 }
@@ -741,17 +783,26 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: initial;
+}
+@media only screen and (max-width: 768px) {
+  .contact {
+    flex-wrap: wrap;
+  }
 }
 .contact .type {
   text-align: left;
 }
 .contact__form {
   width: 48%;
+  padding: 30px;
+  background: #f0f0f0;
 }
 @media only screen and (max-width: 768px) {
   .contact__form {
+    width: 100%;
+  }
+  .contact__form button {
     width: 100%;
   }
 }
@@ -767,12 +818,9 @@ body {
   background: #f6f6f6;
 }
 .contact__text {
-  width: 48%;
-}
-@media only screen and (max-width: 768px) {
-  .contact__text {
-    width: 100%;
-  }
+  padding: 30px;
+  background: #f0f0f0;
+  margin-bottom: 20px;
 }
 .contact__phone {
   font-size: 42px;
@@ -780,6 +828,16 @@ body {
 @media only screen and (max-width: 768px) {
   .contact__phone {
     font-size: 24px;
+  }
+}
+.contact__info {
+  width: 48%;
+  display: flex;
+  flex-flow: column;
+}
+@media only screen and (max-width: 768px) {
+  .contact__info {
+    width: 100%;
   }
 }
 .section-get__subtitle {
@@ -799,7 +857,7 @@ body {
 .section-get {
   position: relative;
   background-position: fixed;
-  background-image: url("/img/image-3.jpg");
+  background-image: url("../img/image-3.jpg");
   background-size: cover;
   background-attachment: fixed;
 }
@@ -916,13 +974,11 @@ body {
 }
 .service__img {
   height: 250px;
-  background-image: url("/img/service.jpg");
   text-transform: uppercase;
   background-size: cover;
 }
 .service__title {
   color: #111;
-  font-family: Sansus Webissimo;
 }
 .service__text {
   margin-bottom: 20px;
@@ -936,9 +992,9 @@ body {
   margin-bottom: 0;
 }
 .service__price {
-  font-family: Sansus Webissimo;
   font-size: 20px;
   color: #111;
+  font-weight: 700;
 }
 .section-work {
   background: #f6f6f6;

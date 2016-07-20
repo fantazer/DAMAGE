@@ -2,20 +2,15 @@ mixin section-service()
 	// block section-service
 	.section.section-service
 		.main-cont
-			.type.type--lg Наши услуги
+			.type.type--lg Наши услуги!
 			.service__wraper
 				- for (var a = 0; a < 8 ; a++)
 					.service__el
-						.service__img
-							//img(src="img/service.jpg", alt="")
+						.service__img(style="background-image:url(img/service.jpg);")
 						.service__info
 							.type.type--md Оценка после залива
 							.service__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas, rem.
 							.service__footer
 								.service__price 3000 р
 								a(href="#").service__link.btn.btn--sm Подробнее
-
-					
-
-
-						
+	//block section-service end

@@ -18,7 +18,7 @@ $(document).ready(function(){
 		items:4,
 		responsive : {
 	 		0:{
-			 	items : 2
+			 	items : 3
 		 	},
 		 	768:{
 			 	items : 4
@@ -63,7 +63,10 @@ $(document).ready(function(){
 				$(toggleEl).hide();
 		});
 	}
-	hideToggle('.icon-bars','.header-nav');
+
+	if ($(window).width()<768) {
+		hideToggle('.icon-bars','.header-nav');
+	}
 
 
 	/* ###### init RangeSLider  ######*/
