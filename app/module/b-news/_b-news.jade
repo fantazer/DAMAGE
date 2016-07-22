@@ -1,0 +1,12 @@
+mixin b-news()
+	//block b-news
+	.news
+		- for (var i = 0; i < 3; i++)
+			.news__el
+				.news__img
+					img(src="img/news.jpg", alt="")
+				.news__content
+					.news__title Оценка автомобиля для нотариуса 1500р
+					.news__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo alias facere, esse, quod quidem tempore voluptate expedita aut ipsum illum fugiat, officiis molestiae eveniet quae magnam praesentium ipsa, obcaecati possimus voluptatem ut porro et delectus. Accusamus iusto, distinctio dolorum officiis?
+					a(href="#").link-more Подробнее
+	//block b-news end

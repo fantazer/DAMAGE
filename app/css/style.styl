@@ -26,8 +26,35 @@ body
 	padding  0 10px
 	+above(1200px)
 		width 1200px
-
-
+.content
+	//padding 40px 0
+	background grey
+	padding-bottom 40px
+.content__wraper
+	//margin-top 40px
+.content__info
+	+below(768px)
+		margin-top 0px
+	fw()
+	flex(between)
+	align-items flex-start
+	margin-top 30px
+.content__left
+	+below(996px)
+		width 100%
+	width 74%
+	position relative
+	z-index 100
+.content__right
+	+below(996px)
+		width 100%
+	width 24%
+.sticky-wrapper
+	width 100%
+.st-head-row
+	background #e8e8eb !important
+/*.slider
+	background: radial-gradient(#8892c0 10px, #485096)*/
 @import "../module/**/*"
 
 

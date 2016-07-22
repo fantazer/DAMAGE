@@ -14,6 +14,10 @@ $(document).ready(function(){
 		$("html,body").css("overflow","hidden");
 	}
 
+	//Responsive Table
+	$('.table_price').stacktable();
+
+	//Clients
 	$(".client").owlCarousel({
 		items:4,
 		responsive : {
@@ -39,17 +43,42 @@ $(document).ready(function(){
 	 	}
 	);
 
+var defaultSlider = function(element){
+	$(element).owlCarousel({
+		items:1,
+	 	autoHeight : true,
+	 	dots: false,
+	 	autoplay : true,
+	 	singleItem:true,
+	 	nav:false,
+	 	loop:true,
+			navText:['<span class="icon-angle-left"></span>','<span class="icon-angle-right"></span>']
+	 	}
+	);
+}
+
+defaultSlider(".slider");
+defaultSlider(".questions--wraper");
 	//animate header
-	var shrinkHeader = 600;
-	  $(window).scroll(function() {
+	var shrinkHeader = 100;
+	$(window).scroll(function() {
 	    var scroll = $(this).scrollTop();
 	      if ( scroll >= shrinkHeader ) {
+	           var heightHeader=$('.header').height();
 	           $('.header').addClass('shrink');
+	           //$('.panel').addClass('shrink');
+	           //$('.panel').css('top',heightHeader+'px');
 	        }
 	        else {
 	            $('.header').removeClass('shrink');
+	            //$('.panel').removeClass('shrink');
 	        }
 	});
+
+	//Stick panel
+	var heightHeader=$('.header').height();
+	$(".panel").sticky({topSpacing:heightHeader});
+
 	/* ###### For SlideToggle Elements  ######*/
 	var hideToggle = function(targetClick,toggleEl) {
 		$(targetClick).click(function(event){
@@ -65,10 +94,17 @@ $(document).ready(function(){
 	}
 
 	if ($(window).width()<768) {
-		hideToggle('.icon-bars','.header-nav');
+		hideToggle('.header .icon-bars','.header-nav');
 	}
+	hideToggle('.list-service .icon-bars','.list-service__content');
 
-
+	setInterval(function() {
+		$('.panel__get').addClass('shake')
+	}, 16000);
+	
+	setInterval(function() {
+		$('.panel__get').removeClass('shake')
+	}, 18000);	
 	/* ###### init RangeSLider  ######*/
 	/* ###### bower i --save-dev nouislider  ######*/
 	/* ###### https://gist.github.com/fantazer/2bdc4e6a63708e143718ffa7c32eae17  ######*/

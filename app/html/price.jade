@@ -1,0 +1,50 @@
+//Include style
+include block_html/_style.jade
+body
+	//Include header
+	include block_html/_const.jade
+	include ../module/**/*.jade
+	
+	+header()
+	.content
+		.main-cont
+			.content__wraper
+					+b-slider()
+					.content__info
+						.content__left
+							h1 Цены на наши услуги
+							table.table_price.stacktable.large-only
+									tbody
+										tr
+											td
+												p
+													strong Вид оказываемых услуг
+											td
+												p
+													strong Цена услуги
+											td
+												p
+													strong Сроки исполнения
+											td
+												p
+													strong  Получить
+										- for (var i = 0; i < 10; i++)
+											tr
+												td
+													p Оценка легкового/грузового автомобиля,катера,лодки,прицепа
+												td
+													p 1500  руб
+												td
+													p 1 день
+												td
+													a(href="#").table__link подбронее
+							+b-news()
+							+b-link()
+						.content__right
+							+b-adv()
+							+b-list-service()
+							+b-question()
+	+section-contact()
+	+footer
+	//Include footer
+	include ./block_html/_script.jade

@@ -2,7 +2,8 @@
 	+below(768px)
 		font-size 8px
 	font-size 10px
-	
+h1,h2,h3,h4,h5
+	color black
 .type--sm
 	+below(768px)
 		font-size 10px
@@ -93,16 +94,39 @@
 	}
 }
 
+
+
+@keyframes shake {
+ 0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  animation  shake  1s  
+}
+
 .shrink
 	position fixed!important
 	top 0
 	left 0
-	background white
+	background white!important
 	width 100%
 	margin 0
 	animation:  slideInDown  1s 1 ease-in-out
 	z-index 9999
-	box-shadow: 0px 3px 8px #6f6f6f
+	//box-shadow: 0px 3px 8px #6f6f6f
 	.header__logo
 		background-image url('../img/logo-dark.png') 
 	.header-nav
@@ -142,12 +166,18 @@ table
 	table(true,true)
 .small-only
 	+below(768px)
-		display table
+		display table!important
 	display none
 .large-only
 	+below(768px)
 		display none
-
+.st-head-row
+	+below(768px)
+		p
+			text-align left!important
+			font-weight 600
+			color black 
+			font-size 12px
 .icon
 	display inline 
 .owl-next,
@@ -197,4 +227,65 @@ table
 .filter--dark
 	background #000000 
 .filter--light
-	background #f9f9f9 
+	background #f9f9f9
+.block-header
+	background red
+	flex(mid)
+	color white 
+	padding 10px
+	font-size 18px
+	up()
+.block-header--blue
+	background blue
+.block-content
+	background white 
+	padding 20px
+	margin-bottom 20px
+	.btn
+		width 100%
+		text-align center
+		flex(mid)
+.block-header--toggle
+	position relative
+	i
+		+below(768px)
+			display block 
+		position absolute
+		right 20px
+		top 50%
+		margin-top -10px
+		cp()
+		display none 
+.link-more
+	color blue
+	text-decoration underline
+	font-size 12px
+	margin-bottom 20px
+	display inline-bloc
+.table_price
+	tr
+		td
+			&:nth-child(1)
+				p
+					text-align left
+			&:nth-child(2)
+				p
+					font-weight 700
+					color red 
+	table()
+	p
+		padding 0
+		margin 0
+		text-align center
+	strong
+		color black
+		
+.table__link
+	padding 4px 10px
+	color #485096
+	font-size 10px
+	text-transform uppercase
+	font-weight 700
+	text-decoration underline
+	display block
+	text-align center

@@ -1,7 +1,26 @@
-<!DOCTYPE html>
-html(lang="en")
-head
-	meta(charset="UTF-8")
-	title Document
+//Include style
+include block_html/_style.jade
 body
+	//Include header
+	include block_html/_const.jade
+	include ../module/**/*.jade
 	
+	+header()
+	.content
+		.main-cont
+			.content__wraper
+					+b-slider()
+					.content__info
+						.content__left
+							+panel()
+							+text()
+							+b-news()
+							+b-link()
+						.content__right
+							+b-adv()
+							+b-list-service()
+							+b-question()
+	+section-contact()
+	+footer
+	//Include footer
+	include ./block_html/_script.jade

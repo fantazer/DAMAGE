@@ -1,0 +1,21 @@
+//! block b-list-service
+.list-service__el
+	display inline-block
+	padding 5px
+	padding-left 10px
+	font-size 12px
+	border-bottom 1px  solid  grey
+	position relative
+	width 100%
+	&:before
+		content " > "
+		position absolute
+		left -5px
+		color red
+.list-service
+	+below(768px)
+		margin-bottom 20px
+	.block-content
+		+below(768px)
+			display none 
+//!block b-list-service end

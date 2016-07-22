@@ -1,0 +1,52 @@
+//! block b-slider
+.slider-el
+	flex(between)
+	fw()
+	padding 20px
+	p
+		font-size 12px
+		width 60%
+		margin 20px auto
+		text-align center
+.slider__img
+	+below(768px)
+		width 100%
+		margin-bottom 10px
+	width 60%
+	flex(mid)
+	img
+		width 70%
+.slider__info
+	+below(768px)
+		align-items center
+		width 100%
+	flex(mid)
+	fl() 
+	align-items flex-start
+	width 40%
+.slider__text-lg
+	+below(768px)
+		font-size 10px
+	up()
+	color blue
+	font-size 30px
+	font-weight 700 
+.slider__text-md
+	+below(768px)
+		font-size 10px
+	up()
+	color red
+	font-size 22px
+.slider__price
+	+below(768px)
+		font-size 20px
+	font-size 60px
+	color black
+	font-weight 700 
+	span
+		font-size 14px
+	.slider
+		padding 60px 0px
+.owl-carousel .owl-item img
+	width initial 
+//!block b-slider end

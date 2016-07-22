@@ -9,7 +9,15 @@
 		"section-number":"section-number",
 		"section-client":"section-client",
 		"section-contact":"section-contact",
-		"footer":"footer"
+		"footer":"footer",
+		"panel":"panel",
+		"b-adv":"b-adv",
+		"b-slider":"b-slider",
+		"text":"text",
+		"b-list-service":"b-list-service",
+		"b-question":"b-question",
+		"b-news":"b-news",
+		"b-link":"b-link"
 	},
 	"page":{
 		"index":"index"

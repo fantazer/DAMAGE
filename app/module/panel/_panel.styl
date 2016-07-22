@@ -1,0 +1,55 @@
+//! block panel
+.is-sticky
+	.panel
+		+below(768px)
+			left -10px
+			width calc(100% + 12px)!important
+.panel
+	flex(between)
+	fw()
+	background white
+	align-items initial
+	z-index 200
+	border 1px solid #ededed
+.panel__ready
+	+below(768px)
+		display none!important
+.panel__el
+	flex(mid)
+	fl()
+	padding 5px 10px
+	color black
+	border-right 1px solid #eeeeee
+	flex-grow 1
+.panel__title
+	font-size 12px
+	color blue
+	font-weight 700
+.panel__info
+	+below(768px)
+		font-size 12px
+	font-size 24px
+	font-weight 600 
+	up()
+	span
+		font-size 12px
+.panel__price
+	.panel__title
+		color red
+	.panel__info
+		color red
+.panel__get
+	+below(768px)
+		width 100%
+		padding 10px
+	flex(mid)
+	up()
+	background blue
+	color white
+	font-size 18px
+	width 13% 
+.panel__star
+	i
+		color blue
+		font-size 16px
+//!block panel end
