@@ -240,95 +240,72 @@
 	"buffers":
 	[
 		{
-			"file": "/C/web/DAMAGE/app/html/page.jade",
+			"file": "/C/web/DAMAGE/app/module/section-company/_section-company.jade",
 			"settings":
 			{
-				"buffer_size": 376,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/web/DAMAGE/app/css/variable/_element.styl",
-			"settings":
-			{
-				"buffer_size": 3355,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/web/DAMAGE/app/css/style.styl",
-			"settings":
-			{
-				"buffer_size": 1018,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "Searching 442 files for \"block-header\" (regex, case sensitive)\n\nC:\\Web\\damage\\app\\css\\style.css:\n  477    background: #f9f9f9;\n  478  }\n  479: .block-header {\n  480    background: #485096;\n  481    display: flex;\n\nC:\\Web\\damage\\app\\css\\variable\\_element.styl:\n  200  .filter--light\n  201  	background #f9f9f9\n  202: .block-header\n  203  	background blue\n  204  	flex(mid)\n\nC:\\Web\\damage\\app\\module\\b-adv\\_b-adv.jade:\n    2  	//block b-adv\n    3  	.adv\n    4: 		.block-header Нас выбирают\n    5  		- for (var a = 0; a < 5 ; a++)\n    6  			.adv__el\n\nC:\\Web\\damage\\app\\page.html:\n  155  						<!--block b-adv-->\n  156  						<div class=\"adv\">\n  157: 							<div class=\"block-header\">Нас выбирают</div>\n  158  							<div class=\"adv__el\">\n  159  								<img src=\"img/icon-adv-1.jpg\" alt=\"\" class=\"adv__img\" />\n\n4 matches across 4 files\n",
-			"settings":
-			{
-				"buffer_size": 833,
-				"line_ending": "Windows",
-				"name": "Find Results",
-				"scratch": true
-			}
-		},
-		{
-			"file": "/C/web/DAMAGE/app/js/script.js",
-			"settings":
-			{
-				"buffer_size": 2787,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "mixin b-slider()\n	//block b-slider\n	.slider.owl-carousel\n		- for (var i = 0; i < 3 ; i++)\n			a(href=\"#\").slider-el\n				.slider__img\n					img(src=\"img/slider-3 .png\", alt=\"\")\n				.slider__info\n					.slider__text-md Акция - цены снижены\n					.slider__text-lg Оценка спец техники\n					.slider__price 3400\n						span руб\n	//block b-slider end",
-			"file": "/C/web/DAMAGE/app/module/b-slider/_b-slider.jade",
-			"file_size": 373,
-			"file_write_time": 131135891489329946,
-			"settings":
-			{
-				"buffer_size": 338,
+				"buffer_size": 1217,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/web/DAMAGE/app/module/panel/_panel.jade",
-			"settings":
-			{
-				"buffer_size": 392,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "/C/web/DAMAGE/app/module/b-adv/_b-adv.jade",
-			"settings":
-			{
-				"buffer_size": 238,
-				"line_ending": "Unix"
-			}
-		},
-		{
+			"contents": "//! block b-slider\n.slider-el\n	flex(between)\n	fw()\n	padding 20px\n	p\n		font-size 12px\n		width 60%\n		margin 20px auto\n		text-align center\n.slider__img\n	+below(768px)\n		width 100%\n		margin-bottom 10px\n	width 60%\n	flex(mid)\n	img\n		width 70%\n.slider__info\n	+below(768px)\n		align-items center\n		width 100%\n	flex(mid)\n	fl() \n	align-items flex-start\n	width 40%\n.slider__text-lg\n	+below(768px)\n		font-size 10px\n	up()\n	color blue\n	font-size 30px\n	font-weight 700 \n.slider__text-md\n	+below(768px)\n		font-size 10px\n	up()\n	color red\n	font-size 22px\n.slider__price\n	+below(768px)\n		font-size 20px\n	font-size 60px\n	color black\n	font-weight 700 \n	span\n		font-size 14px\n	.slider\n		padding 60px 0px\n.owl-carousel .owl-item img\n	width initial \n//!block b-slider end",
 			"file": "/C/web/DAMAGE/app/module/b-slider/_b-slider.styl",
+			"file_size": 746,
+			"file_write_time": 131136679759194418,
 			"settings":
 			{
-				"buffer_size": 725,
+				"buffer_size": 746,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/web/DAMAGE/app/module/section-work/_section-work.styl",
+			"settings":
+			{
+				"buffer_size": 680,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "[class*=\" icon-\"]:before,[class^=icon-]:before,[data-icon]:before{font-family:main!important;font-style:normal!important;font-weight:400!important;font-variant:normal!important;text-transform:none!important;speak:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}a,a:hover{text-decoration:none}.type,a,h1,h2,h3,h4,h5{color:#111}.table_price,table{max-width:100%;border-spacing:0;border-collapse:separate}.clearfix:after,.main-cont:after{clear:both}.block-header--toggle i:hover,.header__toggle:hover,.links__el:hover:hover{cursor:pointer}.icon-IMG_11032016_160446{background-image:url(../img/sprite.png);background-position:0 0;width:1602px;height:948px}.icon-russia,.icon-russia:hover{background-image:url(../img/sprite.png);width:640px;height:480px}.icon-russia:hover{background-position:0 -948px}.icon-russia{background-position:-640px -948px}[data-icon]:before{content:attr(data-icon)}.icon-angle-right:before{content:\"\\61\"}.icon-angle-left:before{content:\"\\62\"}.icon-angle-down:before{content:\"\\63\"}.icon-angle-up:before{content:\"\\64\"}.icon-bars:before{content:\"\\66\"}.icon-times:before{content:\"\\65\"}.icon-heart:before{content:\"\\67\"}.icon-heart-o:before{content:\"\\68\"}.icon-facebook-official:before{content:\"\\69\"}.icon-twitter:before{content:\"\\6a\"}.icon-vk:before{content:\"\\6b\"}.icon-odnoklassniki:before{content:\"\\6c\"}.icon-search:before{content:\"\\6d\"}.icon-star:before{content:\"\\6e\"}.icon-star-o:before{content:\"\\6f\"}.icon-check:before{content:\"\\70\"}.link-more,.questions--el a,.table__link{text-decoration:underline}.bold{font-weight:600}html{-webkit-box-sizing:border-box;box-sizing:border-box}*,:after,:before{-webkit-box-sizing:inherit;box-sizing:inherit}iframe,img,video{max-width:100%;height:auto;border:0;-ms-interpolation-mode:bicubic;display:block}input{outline:0!important}textarea{resize:none}.hidden{display:none!important}.clearfix{zoom:1}.clearfix:after,.clearfix:before{content:\"\";display:table}.btn,.btn--lg,.btn--md,.btn--sm,button{-webkit-transition:all .4s;display:inline-block;text-transform:uppercase}@font-face{font-family:main;src:url(../fonts/main.eot);src:url(../fonts/main.eot?#iefix) format(\"embedded-opentype\"),url(../fonts/main.woff) format(\"woff\"),url(../fonts/main.ttf) format(\"truetype\"),url('../fonts/main.svg#Futura LT W01 Book') format(\"svg\")}.type--xs{font-size:10px}@media only screen and (max-width:768px){.type--xs{font-size:8px}}.type--sm{font-size:12px}@media only screen and (max-width:768px){.type--sm{font-size:10px}}.type{font-size:16px;text-transform:uppercase}@media only screen and (max-width:768px){.type{font-size:14px;padding-bottom:20px}}.type--md{font-size:18px;padding-bottom:20px}@media only screen and (max-width:768px){.type--md{font-size:16px}}.type--lg{font-size:38px;padding-bottom:40px}@media only screen and (max-width:768px){.type--lg{font-size:24px;padding-bottom:20px}}.btn,.btn--lg,.btn--md,.btn--sm{margin-bottom:20px;transition:all .4s;border:1px solid #cb507a;color:#cb507a}.btn--active,.btn--red{color:#fff}.btn--lg:hover,.btn--md:hover,.btn--sm:hover,.btn:hover{background:#b33560;color:#fff}.btn--sm{font-size:10px;padding:5px 10px}.btn--md{font-size:12px;padding:10px 20px}.btn--lg{font-size:20px;padding:10px 30px}.btn--red{background:#cb507a}.btn--active,.btn--red:hover{background:#b33560}.section{padding:90px 0}.shake{-webkit-animation:shake 1s;animation:shake 1s}.shrink{position:fixed!important;top:0;left:0;background:#fff!important;width:100%;margin:0;-webkit-animation:slideInDown 1s 1 ease-in-out;animation:slideInDown 1s 1 ease-in-out;z-index:9999}.shrink .header-nav a{color:#111!important}@media only screen and (max-width:768px){.section{padding:30px 0}.shrink .header-nav a{color:#fff!important}}.shrink .header__cont{color:#111}.shrink .header__logo{background-image:url(../img/logo-dark.png);color:#cb507a}.shrink .header__toggle{color:#111}input,textarea{padding:10px 15px;border:1px solid #f6f6f6}button{-webkit-border-radius:0;border-radius:0;transition:all .4s;border:0;margin-bottom:20px;font-size:20px;padding:10px 30px;background:#fff;color:#cb507a}.table_price td+td,.table_price td+th,.table_price th+td,.table_price th+th,table td+td,table td+th,table th+td,table th+th{border-left:1px solid #ddd}button:hover{background:#b33560}button form{display:block}table{width:100%;margin-bottom:18px;border:1px solid #ddd;-webkit-border-radius:4px;border-radius:4px}table td,table th{padding:8px;line-height:18px;text-align:left;vertical-align:top;border-top:1px solid #ddd}table th{font-weight:700}table thead th{vertical-align:bottom}table tbody:first-child tr:first-child td,table tbody:first-child tr:first-child th,table thead:first-child tr td,table thead:first-child tr th,table thead:first-child tr:first-child th{border-top:0}table tbody+tbody{border-top:2px solid #ddd}table tbody:first-child tr:first-child td:first-child,table thead:first-child tr:first-child th:first-child{-webkit-border-radius:4px 0 0;border-radius:4px 0 0}table tbody:first-child tr:first-child td:last-child,table thead:first-child tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;border-radius:0 4px 0 0}table tbody:last-child tr:last-child td:first-child,table thead:last-child tr:last-child th:first-child{-webkit-border-radius:0 0 0 4px;border-radius:0 0 0 4px}table tbody:last-child tr:last-child td:last-child,table thead:last-child tr:last-child th:last-child{-webkit-border-radius:0 0 4px;border-radius:0 0 4px}table tbody tr:nth-child(odd) td,table tbody tr:nth-child(odd) th{background-color:#f9f9f9}table tbody tr:hover td,table tbody tr:hover th{background-color:#f5f5f5}.small-only{display:none}.large-only tr td:nth-child(2){width:20%}@media only screen and (max-width:768px){.small-only{display:table!important}.large-only{display:none}.st-head-row p{text-align:left!important;font-weight:600;color:#111;font-size:12px}}.icon{display:inline}.owl-next,.owl-prev{position:absolute;top:50%;margin-top:-30px;color:#111;font-size:40px}.owl-carousel,.owl-dots{position:relative}.owl-carousel .icon{font-size:64px}.owl-prev{left:-3%}.owl-next{right:-3%}@media only screen and (max-width:768px){.owl-prev{left:-3%;display:none}.owl-next{right:-3%;display:none}}.block-header,.owl-dots{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;-webkit-box-pack:center}.owl-dots{width:100%;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;margin-top:-40px;z-index:2000}.owl-dot{-webkit-border-radius:50%;border-radius:50%;margin:5px;width:10px;height:10px;background:#fff}.owl-dot.active{background:#322f40}.filter{position:absolute;top:0;left:0;width:100%;height:100%;background:#485096;opacity:.7}.filter--dark{background:#000}.filter--light{background:#f9f9f9}.block-header{background:#cb507a;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:#fff;padding:10px;font-size:18px;text-transform:uppercase}.block-header--blue{background:#485096}.block-content{background:#fff;padding:20px;margin-bottom:20px}.block-content .btn{width:100%;text-align:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.block-header--toggle{position:relative}.block-header--toggle i{position:absolute;right:20px;top:50%;margin-top:-10px;display:none}@media only screen and (max-width:768px){.block-header--toggle i{display:block}}.link-more{color:#485096;font-size:12px;margin-bottom:20px;display:inline-bloc}.table_price{width:100%;margin-bottom:18px;border:1px solid #ddd;-webkit-border-radius:4px;border-radius:4px}.adv__el,.list-service__el{border-bottom:1px solid #f6f6f6}.table_price tr td:nth-child(1) p{text-align:left}.table_price tr td:nth-child(2) p{font-weight:700;color:#cb507a}.table_price td,.table_price th{padding:8px;line-height:18px;text-align:left;vertical-align:top;border-top:1px solid #ddd}.main-baner__lg,.slider-el p,.table__link,.table_price p,.type{text-align:center}.table_price th{font-weight:700}.table_price thead th{vertical-align:bottom}.table_price thead:first-child tr td,.table_price thead:first-child tr th{border-top:0}.table_price tbody+tbody{border-top:2px solid #ddd}.table_price tbody:first-child tr:first-child td,.table_price tbody:first-child tr:first-child th,.table_price thead:first-child tr:first-child th{border-top:0}.table_price tbody:first-child tr:first-child td:first-child,.table_price thead:first-child tr:first-child th:first-child{-webkit-border-radius:4px 0 0;border-radius:4px 0 0}.table_price tbody:first-child tr:first-child td:last-child,.table_price thead:first-child tr:first-child th:last-child{-webkit-border-radius:0 4px 0 0;border-radius:0 4px 0 0}.table_price tbody:last-child tr:last-child td:first-child,.table_price thead:last-child tr:last-child th:first-child{-webkit-border-radius:0 0 0 4px;border-radius:0 0 0 4px}.table_price tbody:last-child tr:last-child td:last-child,.table_price thead:last-child tr:last-child th:last-child{-webkit-border-radius:0 0 4px;border-radius:0 0 4px}.table_price tbody tr:nth-child(odd) td,.table_price tbody tr:nth-child(odd) th{background-color:#f9f9f9}.table_price tbody tr:hover td,.table_price tbody tr:hover th{background-color:#f5f5f5}.table_price p{padding:0;margin:0}.table_price strong{color:#111}.table__link{padding:4px 10px;color:#485096;font-size:10px;text-transform:uppercase;font-weight:700;display:block}.wpcf7-submit{background:#fff;width:auto!important}.star__reting img{display:inline}.span_h2{font-size:16px;font-weight:700;color:#111}@media only screen and (max-width:768px){.wpcf7-submit{width:100%!important}.span_h2{font-size:14px}}@-webkit-keyframes slideInDown{from{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@keyframes slideInDown{from{-webkit-transform:translate3d(0,-100%,0);transform:translate3d(0,-100%,0);visibility:visible}to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}}@-webkit-keyframes shake{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shake{0%{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@font-face{font-family:main;src:url(../fonts/main.eot);src:url(../fonts/main.eot?#iefix) format(\"embedded-opentype\"),url(../fonts/main.woff) format(\"woff\"),url(../fonts/main.ttf) format(\"truetype\"),url('../fonts/main.svg#Futura LT W01 Book') format(\"svg\")}body{font-size:14px;font-family:'Open Sans';overflow-x:hidden;color:#616161}.main-cont{max-width:1200px;float:none;display:block;margin-right:auto;margin-left:auto;position:relative;width:100%;padding:0 10px}.main-cont:after,.main-cont:before{content:'';display:table}.adv__el,.content__info{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}@media only screen and (min-width:1200px){.main-cont{width:1200px}}.content{background:#f6f6f6;padding-bottom:40px}.content__info{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;margin-top:30px}.content__left{width:74%;position:relative;z-index:100}@media only screen and (max-width:996px){.content__left{width:100%}}.content__right{width:24%}.sticky-wrapper{width:100%}.st-head-row{background:#e8e8eb!important}.adv,.links{background:#fff;margin-bottom:20px}.adv__el{padding:20px;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}@media only screen and (max-width:996px){.content__right{width:100%}.adv__el{-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}}.links,.slider__img{-webkit-box-pack:center}.adv__number{font-size:28px;color:#111;padding:0 20px;font-weight:700}.links{padding:20px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}@media only screen and (max-width:768px){.content__info{margin-top:0}.links{display:none}}.links__el{padding:5px;border:1px solid #f6f6f6;margin:5px;font-size:12px;-webkit-transition:all .4s;transition:all .4s}.links__el:hover{background:#485096}.links__el:hover a{color:#fff}.list-service__el{display:inline-block;padding:5px 5px 5px 10px;font-size:12px;position:relative;width:100%}.list-service__el:before{content:\" > \";position:absolute;left:-5px;color:#cb507a}@media only screen and (max-width:768px){.list-service{margin-bottom:20px}.list-service .block-content{display:none}}.news{padding:20px;background:#fff;margin:40px 0 20px}.news__el{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;margin-bottom:20px}.news__img{width:30%}@media only screen and (max-width:768px){.news{padding:0}.news__img{width:100%;margin-bottom:20px;display:none!important}}.news__content{width:70%;padding:0 20px}@media only screen and (max-width:768px){.news__content{width:100%;font-size:12px}}.news__content .link-more{margin-top:10px;text-transform:uppercase}.news__title{font-weight:700;margin-bottom:20px;font-size:16px;color:#111;text-transform:uppercase}@media only screen and (max-width:768px){.news__title{font-size:14px;margin-bottom:10px}}.questions--el a{color:#485096;font-size:12px;margin-bottom:20px;display:inline-block}.slider-el,.slider__img{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.slider-el{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;padding:20px}.slider-el p{font-size:12px;width:60%;margin:20px auto}.slider__img{width:60%;display:flex;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.footer-wraper,.slider__info{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}@media only screen and (max-width:768px){.slider__img{width:100%;margin-bottom:10px}}.slider__img img{width:70%}.slider__info{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;width:40%}.slider__text-lg{text-transform:uppercase;color:#485096;font-size:30px;font-weight:700}@media only screen and (max-width:768px){.slider__info{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:100%}.slider__text-lg{font-size:10px}}.slider__text-md{text-transform:uppercase;color:#cb507a;font-size:22px}@media only screen and (max-width:768px){.slider__text-md{font-size:10px}}.slider__price{font-size:60px;color:#111;font-weight:700}@media only screen and (max-width:768px){.slider__price{font-size:20px}}.slider__price span{font-size:14px}.slider__price .slider{padding:60px 0}.owl-carousel .owl-item img{width:initial}.footer-wraper{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;padding-bottom:40px}.footer__logo{max-width:250px;margin:20px 0}.footer__service{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:60%;margin:0 auto}.footer__nav,.header{width:100%;background:#485096}@media only screen and (max-width:768px){.footer__service{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:100%;font-size:12px}}.footer__service a{text-transform:uppercase;color:#fff}.footer__nav{padding:10px;margin-bottom:10px}.header{top:0;left:0}.header__top{position:absolute;background:0 0}.header__logo{height:50px;background-image:url(../img/logo-light.png);width:250px;background-size:contain;background-repeat:no-repeat}@media only screen and (max-width:768px){.header__logo{width:120px;height:30px}}.header-wraper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;padding:10px 0}.header-nav{width:40%;z-index:9999}@media only screen and (max-width:768px){.header-nav{display:none;width:100%;position:absolute;background:#a22525;top:100%;left:0}}.header-nav-wraper,.main-section{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.header-nav-wraper{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.header__el a{text-transform:uppercase;font-size:16px;color:#fff}.header__cont{font-size:26px;color:#fff;font-weight:700}@media only screen and (max-width:768px){.header-nav-wraper{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.header__el{width:100%;text-align:center;padding:10px;color:#fff}.header__cont{font-size:16px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.header__cont .icon-bars{margin-left:10px}}.header__toggle{display:none;color:#fff;font-size:22px}@media only screen and (max-width:768px){.header__toggle{display:inline}}.header-main{position:absolute;background:0 0}.main-section{width:100%;height:100vh;position:relative;background:#cb507a;background:-webkit-radial-gradient(#8892c0 10px,#485096);background:radial-gradient(#8892c0 10px,#485096);background-size:cover;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.panel,.panel__el{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.main-baner{max-width:1100px;width:80%}@media only screen and (max-width:1440px){.main-baner{width:50%}}.main-baner__small{color:#fff;text-transform:uppercase;text-align:center;margin-top:30px}.main-baner__lg{color:#fff;text-transform:uppercase;font-family:'Ristretto Pro';font-size:64px}.panel{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;background:#fff;-webkit-box-align:initial;-webkit-align-items:initial;-ms-flex-align:initial;align-items:initial;z-index:200;border:1px solid #ededed}@media only screen and (max-width:768px){.main-baner{width:100%;max-width:300px}.is-sticky .panel{left:-10px;width:-webkit-calc(100% + 12px)!important;width:calc(100% + 12px)!important}.panel__ready{display:none!important}}.panel__el{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;padding:5px 10px;color:#111;border-right:1px solid #eee;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1}.panel__get,.section-company{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.panel__title{font-size:12px;color:#485096;font-weight:700}.panel__info{font-size:24px;font-weight:600;text-transform:uppercase}.how-work__el .type.type--sm,.service__price{font-weight:700}@media only screen and (max-width:768px){.panel__info{font-size:12px}}.panel__info span{font-size:12px}.panel__price .panel__info,.panel__price .panel__title{color:#cb507a}.panel__get{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;text-transform:uppercase;background:#485096;color:#fff;font-size:18px;width:13%}@media only screen and (max-width:768px){.panel__get{width:100%;padding:10px}}.panel__star i{color:#485096;font-size:16px}.company__lg-title,.company__md-title{text-transform:uppercase;color:#111;position:relative}.section-company{padding:0;display:flex}.contact,.section-company__info{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.section-company__image{background-image:url(../img/image-1.jpg);background-size:cover;background-repeat:no-repeat;background-position:top right;width:40%;position:relative}@media only screen and (max-width:768px){.section-company__image{background:#485096;width:10%}}.section-company__info{-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;width:60%;padding:140px}@media only screen and (max-width:992px){.section-company__info{width:100%;padding:80px}}.section-company__info p{width:70%}@media only screen and (max-width:768px){.section-company__info{padding:40px 20px}.section-company__info p{width:100%}}.section-company__info .type{text-align:left;width:100%}.company__lg-title{width:100%;font-size:40px}.company__md-title{width:100%}.section__contact{padding-top:0}.contact{display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:initial;-webkit-align-items:initial;-ms-flex-align:initial;align-items:initial}.contact .type{text-align:left}.contact__form{width:48%;padding:30px;background:#f0f0f0}.contact__form input,.contact__form textarea{width:100%;margin-bottom:20px}.section__contact{background:#f6f6f6}.contact__text{padding:30px;background:#f0f0f0;margin-bottom:20px}.contact__consult,.contact__time{color:#fff;background:#cb507a;padding:10px;text-align:center;text-transform:uppercase}.contact__phone{font-size:42px}@media only screen and (max-width:768px){.contact{-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.contact__form,.contact__form button{width:100%}.contact__phone{font-size:24px}}.contact__info{width:48%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column}.contact__consult{font-size:20px}@media only screen and (max-width:768px){.contact__info{width:100%}.contact__consult{font-size:12px}}.contact__time{font-size:20px;margin-bottom:20px;display:none}.section-get__content p,.service__title{color:#111}@media only screen and (max-width:768px){.contact__time{font-size:12px;display:block}}.section-get__content,.section-number{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.section-get__subtitle{width:40%;min-width:400px;text-align:center;margin:0 auto 80px}.section-get{position:relative;background-position:fixed;background-image:url(../img/image-3.jpg);background-size:cover;background-attachment:fixed}.number__color,.section-service{background:#f6f6f6}@media only screen and (max-width:768px){.section-get__subtitle{width:100%;min-width:100%;padding:0 20px}.section-get{background:#f6f6f6}}.section-get__content{position:relative;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column}.section-number{display:flex;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.number__color,.number__light{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox}.section-number p{width:40%;min-width:400px;text-align:center;margin:0 auto 40px}@media only screen and (max-width:768px){.section-number p{width:100%;min-width:100%;padding:0 20px;margin-bottom:20px}}.section-number .type--lg{padding-bottom:0}.number__light{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;width:50%;padding-top:90px;padding-bottom:30px}@media only screen and (max-width:768px){.number__light{width:100%;padding:30px 10px}.number__light img{width:40%}}.number__color{display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;padding-top:90px;width:50%;padding-bottom:30px}.service__footer,.service__wraper{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;-webkit-box-pack:justify}@media only screen and (max-width:768px){.number__color{width:100%;padding:30px 10px}.number__color img{width:40%}}.number__img{margin-bottom:30px}.service__wraper{display:flex;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:stretch;-webkit-align-items:stretch;-ms-flex-align:stretch;align-items:stretch}.service__el{position:relative;width:24%;margin-bottom:40px;background:#fff;-webkit-box-shadow:0 3px 8px #e3e3e3;box-shadow:0 3px 8px #e3e3e3}@media only screen and (max-width:996px){.service__el{width:32%}}@media only screen and (max-width:768px){.service__el{width:48%}}@media only screen and (max-width:480px){.service__el{width:100%}}.service__info{padding:20px}.service__info .type--md{min-height:70px}.service__img{height:250px;text-transform:uppercase;background-size:cover}.service__text{margin-bottom:50px}.service__footer{display:flex;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;width:85%;position:absolute;bottom:20px}.service__footer .btn{margin-bottom:0}.service__price{font-size:20px;color:#111}.section-work{background:#f6f6f6}.section-work__title{text-align:center_;padding-bottom:20px}.section-work__subtitle{width:30%;min-width:400px;text-align:center;margin:0 auto 80px}@media only screen and (max-width:768px){.section-work__subtitle{width:100%;min-width:100%;padding:0 20px;margin-bottom:20px}}.how-work{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.how-work__col{width:20%}.how-work__el{margin-bottom:40px;text-align:center}@media only screen and (max-width:768px){.how-work__col{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap}.how-work__el{width:48%}}@media only screen and (max-width:480px){.how-work__el{width:100%;margin-bottom:10px}}.how-work__img{padding:10px;width:60%}@media only screen and (max-width:768px){.how-work__img{width:100%;margin-bottom:40px}}",
+			"file": "/C/Users/fantzer/AppData/Local/Temp/scp08947/httpdocs/damage-help.ru/wp-content/themes/DAMAGE/css/style.css",
+			"file_size": 29299,
+			"file_write_time": 131141056510000000,
+			"settings":
+			{
+				"buffer_size": 29299,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "dist/css/style.css",
+			"settings":
+			{
+				"buffer_size": 29299,
+				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "/C/web/DAMAGE/app/module/b-adv/_b-adv.styl",
 			"settings":
 			{
-				"buffer_size": 220,
+				"buffer_size": 264,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/C/web/DAMAGE/app/module/panel/_panel.styl",
+			"file": "/C/web/DAMAGE/app/module/b-news/_b-news.styl",
 			"settings":
 			{
-				"buffer_size": 662,
+				"buffer_size": 533,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/web/DAMAGE/app/module/header/_header.jade",
+			"settings":
+			{
+				"buffer_size": 461,
 				"line_ending": "Unix"
 			}
 		},
@@ -336,7 +313,15 @@
 			"file": "/C/web/DAMAGE/app/module/header/_header.styl",
 			"settings":
 			{
-				"buffer_size": 937,
+				"buffer_size": 986,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/web/DAMAGE/app/module/section-service/_section-service.styl",
+			"settings":
+			{
+				"buffer_size": 637,
 				"line_ending": "Windows"
 			}
 		}
@@ -348,13 +333,33 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 393.0,
+		"height": 378.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
+				"snip fj",
+				"Snippet: for-jade"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"add ",
+				"Package Control: Add Repository"
+			],
+			[
+				"snip fej",
+				"Snippet: foreach-jade"
+			],
+			[
 				"sni fj",
 				"Snippet: for-jade"
+			],
+			[
+				"sni fej",
+				"Snippet: foreach-jade"
 			],
 			[
 				"snipp fj",
@@ -363,10 +368,6 @@
 			[
 				"colo",
 				"Colorsublime: Install Theme"
-			],
-			[
-				"in",
-				"Package Control: Install Package"
 			],
 			[
 				"inst",
@@ -585,34 +586,74 @@
 		"/C/web/DAMAGE/app/css",
 		"/C/web/DAMAGE/app/css/variable",
 		"/C/web/DAMAGE/app/html",
-		"/C/web/DAMAGE/app/html/block_html",
 		"/C/web/DAMAGE/app/js",
 		"/C/web/DAMAGE/app/module",
 		"/C/web/DAMAGE/app/module/b-adv",
+		"/C/web/DAMAGE/app/module/b-link",
+		"/C/web/DAMAGE/app/module/b-list-service",
+		"/C/web/DAMAGE/app/module/b-news",
+		"/C/web/DAMAGE/app/module/b-question",
 		"/C/web/DAMAGE/app/module/b-slider",
 		"/C/web/DAMAGE/app/module/footer",
 		"/C/web/DAMAGE/app/module/header",
 		"/C/web/DAMAGE/app/module/main-section",
 		"/C/web/DAMAGE/app/module/panel",
-		"/C/web/DAMAGE/app/module/text"
+		"/C/web/DAMAGE/app/module/section-company",
+		"/C/web/DAMAGE/app/module/section-contact",
+		"/C/web/DAMAGE/app/module/section-service",
+		"/C/web/DAMAGE/app/module/section-work",
+		"/C/web/DAMAGE/app/module/text",
+		"/C/web/DAMAGE/dist",
+		"/C/web/DAMAGE/dist/css"
 	],
 	"file_history":
 	[
-		"/C/Users/fantzer/Downloads/animate (1).css",
-		"/C/web/DAMAGE/file.json",
-		"/C/web/DAMAGE/app/module/footer/_footer.styl",
-		"/C/web/DAMAGE/app/module/panel/_panel.styl",
-		"/C/web/DAMAGE/app/module/text/_text.jade",
-		"/C/web/DAMAGE/app/module/header/_header.jade",
-		"/C/web/DAMAGE/app/css/style.styl",
-		"/C/web/DAMAGE/app/html/page.jade",
-		"/C/web/DAMAGE/app/module/header/_header.styl",
-		"/C/web/DAMAGE/app/html/block_html/_script.jade",
-		"/C/web/DAMAGE/app/module/main-section/_main-section.styl",
+		"/C/web/DAMAGE/app/module/section-contact/_section-contact.styl",
+		"/C/web/DAMAGE/app/module/section-contact/_section-contact.jade",
+		"/C/Users/fantzer/AppData/Local/Temp/scp45751/two.web-kuznetcov.ru/wp-content/themes/DAMAGE/include/form.php",
+		"/C/OpenServer/domains/DAMAGE/wp-content/themes/DAMAGE/footer.php",
+		"/C/web/DAMAGE/dist/index.html",
+		"/C/web/DAMAGE/gulpfile.js",
+		"/C/Web/DAMAGE/dist/css/style.css",
+		"/C/Web/STRYDO/gulpfile.js",
 		"/C/web/DAMAGE/app/module/b-adv/_b-adv.jade",
-		"/C/web/DAMAGE/app/module/panel/_panel.jade",
 		"/C/web/DAMAGE/app/js/script.js",
+		"/C/web/DAMAGE/app/css/variable/_element.styl",
+		"/C/web/DAMAGE/app/module/text/_text.jade",
+		"/C/web/DAMAGE/app/module/section-service/_section-service.jade",
+		"/C/web/DAMAGE/app/module/b-adv/_b-adv.styl",
+		"/C/web/DAMAGE/app/html/service.jade",
+		"/C/web/DAMAGE/app/html/page.jade",
+		"/C/OpenServer/domains/DAMAGE/wp-content/themes/DAMAGE/header.php",
+		"/C/web/DAMAGE/app/html/contact.jade",
+		"/C/web/DAMAGE/app/module/header/_header.styl",
+		"/C/web/DAMAGE/app/css/style.styl",
+		"/c/users/fantzer/appdata/local/temp/responsive table.js",
+		"/C/OpenServer/domains/DAMAGE/wp-content/themes/DAMAGE/index.php",
+		"/C/web/DAMAGE/app/module/b-news/_b-news.styl",
+		"/C/web/DAMAGE/app/module/b-slider/_b-slider.jade",
+		"/C/web/DAMAGE/app/html/price.jade",
+		"/C/web/DAMAGE/app/module/b-question/_b-question.jade",
+		"/C/web/DAMAGE/app/css/style.css",
+		"/C/web/DAMAGE/app/html/block_html/_script.jade",
 		"/C/web/DAMAGE/app/html/index.jade",
+		"/C/web/DAMAGE/app/module/b-news/_b-news.jade",
+		"/c/users/fantzer/appdata/local/temp/style.styl",
+		"/C/web/DAMAGE/app/module/footer/_footer.styl",
+		"/C/web/DAMAGE/app/html/block_html/_const.jade",
+		"/C/web/DAMAGE/app/module/b-link/_b-link.jade",
+		"/C/web/DAMAGE/app/module/b-list-service/_b-list-service.jade",
+		"/C/web/DAMAGE/app/module/b-link/_b-link.styl",
+		"/C/web/DAMAGE/app/module/panel/_panel.styl",
+		"/C/web/DAMAGE/file.json",
+		"/C/web/DAMAGE/app/module/b-question/_b-question.styl",
+		"/C/web/DAMAGE/app/module/panel/_panel.jade",
+		"/C/Users/fantzer/AppData/Local/Temp/scp26423/httpdocs/slider/slider.php",
+		"/C/web/DAMAGE/app/module/b-list-service/_b-list-service.styl",
+		"/C/web/DAMAGE/app/module/b-slider/_b-slider.styl",
+		"/C/Users/fantzer/Downloads/animate (1).css",
+		"/C/web/DAMAGE/app/module/header/_header.jade",
+		"/C/web/DAMAGE/app/module/main-section/_main-section.styl",
 		"/C/web/DAMAGE/app/css/variable/_constant.styl",
 		"/C/web/DAMAGE/.bowerrc",
 		"/C/Users/fantzer/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
@@ -694,42 +735,11 @@
 		"/C/web/JUREXLAW/app/html/block_html/elements/_contact.jade",
 		"/C/web/JUREXLAW/app/html/block_html/elements/_relax.jade",
 		"/C/Web/STEND/frontend/gulpfile.js",
-		"/C/web/JUREXLAW/app/html/block_html/elements/_footer.jade",
-		"/C/web/JUREXLAW/app/html/block_html/elements/_slider.jade",
-		"/C/Web/JUREXLAW/ftp.json",
-		"/C/web/JUREXLAW/app/html/block_html/elements/_get-order.jade",
-		"/C/web/JUREXLAW/app/css/include/_clients.styl",
-		"/C/web/JUREXLAW/app/html/block_html/elements/_clients.jade",
-		"/C/web/JUREXLAW/app/css/variable/_default.styl",
-		"/C/Users/fantzer/AppData/Local/Temp/scp25510/httpdocs/wp-content/themes/consalting/single_about.php",
-		"/C/Users/fantzer/AppData/Local/Temp/Rar$DIa0.571/flaticon.css",
-		"/C/web/JUREXLAW/app/css/variable/_function.styl",
-		"/C/Users/fantzer/AppData/Local/Temp/Rar$DIa0.728/flaticon.css",
-		"/C/Web/SOLAR/app/css/style.styl",
-		"/C/Users/fantzer/AppData/Local/Temp/scp11613/cgiku.ru/www/wp-content/themes/AAK/functions.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp05256/cgiku.ru/www/wp-content/themes/AAK/single.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp05237/cgiku.ru/www/wp-content/themes/AAK/page_kadastr.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp14183/cgiku.ru/www/wp-content/themes/AAK/page_kadastr.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp12769/cgiku.ru/www/wp-content/themes/AAK/page-publik.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp11057/cgiku.ru/www/wp-content/themes/AAK/page.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp37916/httpdocs/local/components/kennet/x.cabinet/templates/x.courses/template.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp06465/cgiku.ru/www/wp-content/themes/AAK/single.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp27529/cgiku.ru/www/wp-content/themes/AAK/functions.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp36355/httpdocs/cabinet/courses.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp16481/cgiku.ru/www/wp-content/themes/AAK/header.php",
-		"/C/Users/fantzer/AppData/Local/Temp/scp35932/httpdocs/cabinet/reviews_12.04.2016_01%3A04%3A23.csv",
-		"/C/web/SOLAR/app/css/style.styl",
-		"/C/web/STEND/frontend/app/css/variable/_fonts.styl",
-		"/C/web/STEND/frontend/app/css/style.styl",
-		"/C/web/SOLAR/app/css/variable/_default.styl",
-		"/C/web/SOLAR/app/css/variable/_element.styl",
-		"/C/web/SOLAR/app/css/variable/_fonts.styl",
-		"/C/web/STEND/frontend/.gitignore",
-		"/C/web/SOLAR/.gitignore"
+		"/C/web/JUREXLAW/app/html/block_html/elements/_footer.jade"
 	],
 	"find":
 	{
-		"height": 39.0
+		"height": 40.0
 	},
 	"find_in_files":
 	{
@@ -839,6 +849,42 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			".how-work__img",
+			"large-only",
+			"1}",
+			"9280",
+			";",
+			":",
+			"font-size",
+			"font-size:",
+			"color #111",
+			"    ",
+			";",
+			":",
+			".small-only",
+			"    ",
+			"      ",
+			"        ",
+			"      ",
+			"          ",
+			"         ",
+			"        ",
+			"       ",
+			"      ",
+			"     ",
+			"    ",
+			"   ",
+			"  ",
+			"sticky-wrapper",
+			"content",
+			"jade",
+			"news",
+			"b-question",
+			".panel__star",
+			".block-content",
+			"list-service",
+			".block-header",
+			"text",
 			"jello",
 			"block-header",
 			".block-header",
@@ -930,43 +976,7 @@
 			"promotion-slider",
 			"7",
 			"$needcat",
-			"needcat",
-			"6",
-			"cat",
-			"6",
-			"15",
-			";",
-			":",
-			"reset-position",
-			"@media",
-			"10",
-			"__sm",
-			" {}",
-			"pagination",
-			".comment__title",
-			":",
-			";",
-			":",
-			"  ",
-			"    ",
-			"   ",
-			"  ",
-			"breadcrumb",
-			"      ",
-			"  ",
-			"    ",
-			"  ",
-			"      ",
-			"     ",
-			"    ",
-			"  ",
-			"      ",
-			"     ",
-			"    ",
-			"   ",
-			"  ",
-			"   ",
-			"  "
+			"needcat"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1010,24 +1020,397 @@
 	"groups":
 	[
 		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		},
+		{
 			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/web/DAMAGE/app/html/page.jade",
+					"file": "/C/web/DAMAGE/app/module/section-company/_section-company.jade",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 376,
+						"buffer_size": 1217,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								323,
-								323
+								101,
+								101
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
+								"enabled": false,
+								"last_updated": 1469604932.44
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/web/DAMAGE/app/module/b-slider/_b-slider.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+							"gutter_color_387":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										408,
+										419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_408":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/blue.png",
+								"regions":
+								[
+									[
+										408,
+										419
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_488":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										509,
+										519
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_509":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/red.png",
+								"regions":
+								[
+									[
+										509,
+										519
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_578":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										599,
+										611
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_599":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										599,
+										611
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								176,
+								176
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1469263293.2
+							},
+							"history_list_is_closing": true,
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/web/DAMAGE/app/module/section-work/_section-work.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 680,
+						"regions":
+						{
+							"gutter_color_36":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										36,
+										53
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								602,
+								602
 							]
 						],
 						"settings":
@@ -1062,6 +1445,26 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1072,2620 +1475,71 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_helper.file_palette":
 							[
 							],
 							"color_helper.scan":
 							{
-								"current_ext": ".jade",
-								"current_syntax": "Jade/Syntaxes/Jade",
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
 								"enabled": false,
-								"last_updated": 1469130614.43
+								"last_updated": 1469604932.44
 							},
-							"history_list_is_closing": true,
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 114.0,
+						"translation.y": 80.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
+				},
 				{
-					"buffer": 1,
-					"file": "/C/web/DAMAGE/app/css/variable/_element.styl",
+					"buffer": 3,
+					"file": "/C/Users/fantzer/AppData/Local/Temp/scp08947/httpdocs/damage-help.ru/wp-content/themes/DAMAGE/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3355,
+						"buffer_size": 29299,
 						"regions":
 						{
-							"gutter_color_1345":
+							"gutter_color_0":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1371":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1386":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1804,
-										1831
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1412":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1804,
-										1831
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1483":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1493":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1519":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1639":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1649":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1651":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1675":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1677":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1679":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1689":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1708":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1737":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1744":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1746":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1747":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1763":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1771":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1773":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1775":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1795":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1800":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										2230,
-										2252
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1804":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1804,
-										1831
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1810":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										2230,
-										2252
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1812":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1804,
-										1831
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1836":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1804,
-										1831
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1838":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										2230,
-										2252
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1911":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1919":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1943":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1945":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1955":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1963":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1981":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1983":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_1999":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2001":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2019":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2021":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2043":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2051":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2069":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2075":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2077":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2101":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2109":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2117":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2129":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2138":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2141":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2143":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2144":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2146":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2167":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2168":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										1763,
-										1788
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2170":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2175":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2183":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1802,
-										1829
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2185":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1804,
-										1831
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2209":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										1804,
-										1831
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2230":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										2230,
-										2252
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2238":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										2230,
-										2252
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2258":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2284":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2291":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2292":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2316":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#6f6f6f.png",
-								"regions":
-								[
-									[
-										1911,
-										1945
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2375":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2383":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2393":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2401":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2407":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2409":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2413":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2421":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2422":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2041,
-										2066
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2423":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2424":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2425":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2435":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2445":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2448":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2043,
-										2068
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2450":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2474":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2069,
-										2093
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2489":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2490":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2514":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2109,
-										2122
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2518":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2519":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2533":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2543":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2138,
-										2149
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2548":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2167,
-										2180
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2607":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3027,
-										3044
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2610":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										2230,
-										2252
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_263":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										289,
-										301
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2635":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										2230,
-										2252
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2669":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2678":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2686":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2710":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2728":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3148,
-										3165
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2741":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2746":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2756":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2759":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2773":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2780":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										2375,
-										2392
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2792":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2411,
-										2438
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2793":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2794":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2798":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2393,
-										2403
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2817":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										3209,
-										3229
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2818":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										2413,
-										2440
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2853":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f9f9f9.png",
-								"regions":
-								[
-									[
-										3245,
-										3264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2887":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3279,
-										3294
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_289":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										289,
-										301
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2914":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_2915":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3027":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3027,
-										3044
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3035":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3027,
-										3044
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3044":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3058":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3059":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3027,
-										3044
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3061":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3069":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3083":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										2678,
-										2690
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3093":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3148":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3148,
-										3165
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3156":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3148,
-										3165
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3166":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3174":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3180":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3148,
-										3165
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3198":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3209":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										3209,
-										3229
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3217":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										3209,
-										3229
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3241":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										3209,
-										3229
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3245":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f9f9f9.png",
-								"regions":
-								[
-									[
-										3245,
-										3264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3253":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f9f9f9.png",
-								"regions":
-								[
-									[
-										3245,
-										3264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3277":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f9f9f9.png",
-								"regions":
-								[
-									[
-										3245,
-										3264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3279":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3279,
-										3294
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3287":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3279,
-										3294
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3306":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3311":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3279,
-										3294
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3314":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3338":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3408":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3027,
-										3044
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3427":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3432":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3027,
-										3044
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3441":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3442":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3466":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#322f40.png",
-								"regions":
-								[
-									[
-										3061,
-										3080
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3529":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3148,
-										3165
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3532":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3546":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3547":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3553":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3148,
-										3165
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3571":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										3166,
-										3182
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3589":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										3209,
-										3229
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3590":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										3209,
-										3229
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3614":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#000000.png",
-								"regions":
-								[
-									[
-										3209,
-										3229
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3625":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f9f9f9.png",
-								"regions":
-								[
-									[
-										3245,
-										3264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3626":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f9f9f9.png",
-								"regions":
-								[
-									[
-										3245,
-										3264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3650":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#f9f9f9.png",
-								"regions":
-								[
-									[
-										3245,
-										3264
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3659":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3279,
-										3294
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3660":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3279,
-										3294
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3672":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3684":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										3279,
-										3294
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3686":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3687":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_3711":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										3306,
-										3319
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_521":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										547,
-										568
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_543":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										569,
-										586
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_547":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										547,
-										568
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_561":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										587,
-										597
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_569":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										569,
-										586
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_581":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										607,
-										634
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_587":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										587,
-										597
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_607":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										607,
-										634
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_609":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										635,
-										648
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_635":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										635,
-										648
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_72":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										72,
-										84
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_799":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										825,
-										834
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_809":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										835,
-										850
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_825":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										825,
-										834
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_835":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										835,
-										850
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_847":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										873,
-										900
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_851":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										851,
-										863
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_873":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										873,
-										900
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_888":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										914,
-										941
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_914":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										914,
-										941
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_916":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										942,
-										955
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_942":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										942,
-										955
+										0,
+										29299
 									]
 								],
 								"scope": "gutter_color"
@@ -3694,8 +1548,8 @@
 						"selection":
 						[
 							[
-								1748,
-								1748
+								29174,
+								29188
 							]
 						],
 						"settings":
@@ -3719,8 +1573,8 @@
 								{
 									"1":
 									[
-										1752,
-										1753
+										29211,
+										29212
 									]
 								},
 								"icon":
@@ -3735,8 +1589,8 @@
 								{
 									"1":
 									[
-										1725,
-										1726
+										29188,
+										29189
 									]
 								},
 								"unmatched":
@@ -3745,6 +1599,26 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -3755,313 +1629,83 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"class_or_id": "panel__ready",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".styl",
-								"current_syntax": "Stylus/Stylus",
-								"enabled": false,
-								"last_updated": 1469130614.43
-							},
-							"history_list_is_closing": true,
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1997.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "/C/web/DAMAGE/app/css/style.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1018,
-						"regions":
-						{
-							"gutter_color_33":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/tan.png",
-								"regions":
-								[
-									[
-										33,
-										66
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_446":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#616161.png",
-								"regions":
-								[
-									[
-										446,
-										460
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_594":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										594,
-										610
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_849":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#8892c0.png",
-								"regions":
-								[
-									[
-										937,
-										990
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_905":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#8892c0.png",
-								"regions":
-								[
-									[
-										937,
-										990
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_937":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#8892c0.png",
-								"regions":
-								[
-									[
-										937,
-										990
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								690,
-								690
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "tab",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
-							"class_or_id": "panel__ready",
 							"color_helper.file_palette":
 							[
 							],
 							"color_helper.scan":
 							{
-								"current_ext": ".styl",
-								"current_syntax": "Stylus/Stylus",
-								"enabled": false,
-								"last_updated": 1469130614.43
+								"allowed_colors":
+								[
+									"hex",
+									"hsl",
+									"hsla",
+									"rgba",
+									"webcolors",
+									"rgb",
+									"hex_compressed"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1469604932.44,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
 							},
-							"history_list_is_closing": true,
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 551.0,
+						"translation.y": 6994.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 3,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
+					"file": "dist/css/style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 833,
+						"buffer_size": 29299,
 						"regions":
 						{
-							"match":
-							{
-								"flags": 112,
-								"regions":
-								[
-									[
-										144,
-										156
-									],
-									[
-										317,
-										329
-									],
-									[
-										462,
-										474
-									],
-									[
-										666,
-										678
-									]
-								],
-								"scope": ""
-							}
 						},
 						"selection":
 						[
@@ -4073,138 +1717,6 @@
 						"settings":
 						{
 							"apply_syntax_touched": true,
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-									"1":
-									[
-										134,
-										135
-									]
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": null,
-								"current_syntax": "Default/Find Results",
-								"enabled": false,
-								"last_updated": 1469130614.43
-							},
-							"default_dir": "C:\\web\\DAMAGE",
-							"detect_indentation": false,
-							"line_numbers": false,
-							"output_tag": 1,
-							"result_base_dir": "",
-							"result_file_regex": "^([A-Za-z\\\\/<].*):$",
-							"result_line_regex": "^ +([0-9]+):",
-							"scroll_past_end": true,
-							"syntax": "Packages/Default/Find Results.hidden-tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 4,
-					"file": "/C/web/DAMAGE/app/js/script.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2787,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2323,
-								2323
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
 							"auto_complete_triggers":
 							[
 								{
@@ -4223,15 +1735,15 @@
 								{
 									"1":
 									[
-										2326,
-										2327
+										29211,
+										29212
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
 										"brackethighlighter.default"
 									]
 								},
@@ -4239,8 +1751,8 @@
 								{
 									"1":
 									[
-										2263,
-										2264
+										29188,
+										29189
 									]
 								},
 								"unmatched":
@@ -4249,6 +1761,26 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -4259,986 +1791,105 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_helper.file_palette":
 							[
 							],
 							"color_helper.scan":
 							{
-								"current_ext": ".js",
-								"current_syntax": "JavaScript/JavaScript",
-								"enabled": false,
-								"last_updated": 1469130614.43
+								"allowed_colors":
+								[
+									"hex",
+									"hsl",
+									"hsla",
+									"rgba",
+									"webcolors",
+									"rgb",
+									"hex_compressed"
+								],
+								"compress_hex_output": true,
+								"current_ext": ".css",
+								"current_syntax": "CSS/CSS",
+								"enabled": true,
+								"last_updated": 1469604932.44,
+								"scan_completion_scopes":
+								[
+								],
+								"scan_scopes":
+								[
+									"meta.property-value.css -comment -string",
+									"meta.value.css -comment -string",
+									"meta.tag.inline.any.html string.quoted",
+									"meta.tag.any.html meta.attribute-with-value.style.html"
+								],
+								"use_hex_argb": false
 							},
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1501.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 1,
-			"sheets":
-			[
-				{
-					"buffer": 5,
-					"file": "/C/web/DAMAGE/app/module/b-slider/_b-slider.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 338,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								173,
-								173
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "tab",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										172,
-										173
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/round_bracket.png",
-										"brackethighlighter.default"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										140,
-										141
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jade",
-								"current_syntax": "Jade/Syntaxes/Jade",
-								"enabled": false,
-								"last_updated": 1469130614.43
-							},
-							"history_list_is_closing": true,
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "/C/web/DAMAGE/app/module/panel/_panel.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 392,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								282,
-								269
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "tab",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jade",
-								"current_syntax": "Jade/Syntaxes/Jade",
-								"enabled": false,
-								"last_updated": 1469130614.43
-							},
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "/C/web/DAMAGE/app/module/b-adv/_b-adv.jade",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 238,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								238,
-								238
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "tab",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".jade",
-								"current_syntax": "Jade/Syntaxes/Jade",
-								"enabled": false,
-								"last_updated": 1469130614.43
-							},
-							"history_list_is_closing": true,
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 3,
-			"sheets":
-			[
-				{
-					"buffer": 8,
-					"file": "/C/web/DAMAGE/app/module/b-slider/_b-slider.styl",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 725,
-						"regions":
-						{
-							"gutter_color_308":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_320":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_339":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_342":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_352":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_375":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_377":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_387":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_389":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_391":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_396":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										387,
-										398
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_410":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_443":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_444":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_449":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_453":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_468":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_488":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_489":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_497":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										488,
-										498
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_502":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_511":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_533":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_543":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_578":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_579":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_587":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										578,
-										590
-									]
-								],
-								"scope": "gutter_color"
-							}
-						},
-						"selection":
-						[
-							[
-								135,
-								135
-							]
-						],
-						"settings":
-						{
-							"apply_syntax_touched": true,
-							"auto_complete_triggers":
-							[
-								{
-									"characters": "tab",
-									"selector": "text.html"
-								},
-								{
-									"characters": ".#",
-									"selector": "text.html"
-								}
-							],
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-								},
-								"icon":
-								{
-								},
-								"open":
-								{
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
-							],
-							"class_or_id": "panel__ready",
-							"color_helper.file_palette":
-							[
-							],
-							"color_helper.scan":
-							{
-								"current_ext": ".styl",
-								"current_syntax": "Stylus/Stylus",
-								"enabled": false,
-								"last_updated": 1469130614.43
-							},
-							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 57.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 4,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 5,
 					"file": "/C/web/DAMAGE/app/module/b-adv/_b-adv.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 220,
+						"buffer_size": 264,
 						"regions":
 						{
-							"gutter_color_156":
+							"gutter_color_126":
 							{
 								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
+								"icon": "Cache/GutterColor/grey.png",
 								"regions":
 								[
 									[
-										156,
-										168
+										126,
+										155
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_173":
+							"gutter_color_200":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/black.png",
 								"regions":
 								[
 									[
-										156,
-										168
+										200,
+										212
 									]
 								],
 								"scope": "gutter_color"
@@ -5263,21 +1914,8 @@
 								"regions":
 								[
 									[
-										82,
-										111
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_99":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/grey.png",
-								"regions":
-								[
-									[
-										82,
-										111
+										126,
+										155
 									]
 								],
 								"scope": "gutter_color"
@@ -5286,8 +1924,8 @@
 						"selection":
 						[
 							[
-								126,
-								126
+								170,
+								170
 							]
 						],
 						"settings":
@@ -5302,6 +1940,10 @@
 								{
 									"characters": ".#",
 									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
 								}
 							],
 							"bracket_highlighter.busy": false,
@@ -5311,8 +1953,8 @@
 								{
 									"1":
 									[
-										125,
-										126
+										169,
+										170
 									]
 								},
 								"icon":
@@ -5327,8 +1969,8 @@
 								{
 									"1":
 									[
-										117,
-										118
+										161,
+										162
 									]
 								},
 								"unmatched":
@@ -5337,63 +1979,62 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"class_or_id": "panel__ready",
 							"color_helper.file_palette":
 							[
 							],
@@ -5402,635 +2043,76 @@
 								"current_ext": ".styl",
 								"current_syntax": "Stylus/Stylus",
 								"enabled": false,
-								"last_updated": 1469130614.43
+								"last_updated": 1469263293.2
 							},
-							"history_list_is_closing": true,
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage"
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "/C/web/DAMAGE/app/module/panel/_panel.styl",
+					"buffer": 6,
+					"file": "/C/web/DAMAGE/app/module/b-news/_b-news.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 662,
+						"buffer_size": 533,
 						"regions":
 						{
-							"gutter_color_151":
+							"gutter_color_210":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/tan.png",
 								"regions":
 								[
 									[
-										151,
-										175
+										210,
+										235
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_162":
+							"gutter_color_483":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/black.png",
 								"regions":
 								[
 									[
-										222,
-										234
+										493,
+										505
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_168":
+							"gutter_color_493":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/black.png",
 								"regions":
 								[
 									[
-										222,
-										234
+										493,
+										505
 									]
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_175":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#eeeeee.png",
-								"regions":
-								[
-									[
-										235,
-										266
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_181":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#eeeeee.png",
-								"regions":
-								[
-									[
-										235,
-										266
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_212":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										222,
-										234
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_222":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/black.png",
-								"regions":
-								[
-									[
-										222,
-										234
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_225":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#eeeeee.png",
-								"regions":
-								[
-									[
-										235,
-										266
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_235":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#eeeeee.png",
-								"regions":
-								[
-									[
-										235,
-										266
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_250":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										310,
-										321
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_256":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										310,
-										321
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_300":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										310,
-										321
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_310":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										310,
-										321
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_341":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										514,
-										514
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_362":
+							"gutter_color_64":
 							{
 								"flags": 144,
 								"icon": "Cache/GutterColor/white.png",
 								"regions":
 								[
 									[
-										514,
-										514
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_385":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										514,
-										514
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_386":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										514,
-										514
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_391":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										514,
-										514
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_410":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										502,
-										513
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_411":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										502,
-										513
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_416":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										476,
-										487
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_422":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										476,
-										487
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_429":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_44":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										44,
-										61
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_442":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										502,
-										513
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_448":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										502,
-										513
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_452":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_457":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_459":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_466":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										476,
-										487
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_468":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_469":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_474":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_476":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										476,
-										487
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_489":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_492":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										502,
-										513
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_500":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_502":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/red.png",
-								"regions":
-								[
-									[
-										502,
-										513
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_506":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_561":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_571":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_578":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_586":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/blue.png",
-								"regions":
-								[
-									[
-										586,
-										602
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_588":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_603":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										603,
-										615
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_90":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ededed.png",
-								"regions":
-								[
-									[
-										96,
-										121
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_96":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/#ededed.png",
-								"regions":
-								[
-									[
-										96,
-										121
+										64,
+										82
 									]
 								],
 								"scope": "gutter_color"
@@ -6039,8 +2121,8 @@
 						"selection":
 						[
 							[
-								475,
-								475
+								123,
+								123
 							]
 						],
 						"settings":
@@ -6050,6 +2132,155 @@
 							[
 								{
 									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										122,
+										123
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/round_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										121,
+										122
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1469263293.2
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/web/DAMAGE/app/module/header/_header.jade",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								253,
+								253
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -6075,91 +2306,90 @@
 							},
 							"bracket_highlighter.regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
 							],
-							"class_or_id": "panel__ready",
 							"color_helper.file_palette":
 							[
 							],
 							"color_helper.scan":
 							{
-								"current_ext": ".styl",
-								"current_syntax": "Stylus/Stylus",
+								"current_ext": ".jade",
+								"current_syntax": "Jade/Syntaxes/Jade",
 								"enabled": false,
-								"last_updated": 1469130614.43
+								"last_updated": 1469263293.2
 							},
 							"side_bar_folders_auto_load_folder": 1,
-							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 458.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 8,
 					"file": "/C/web/DAMAGE/app/module/header/_header.styl",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 937,
+						"buffer_size": 986,
 						"regions":
 						{
 							"gutter_color_426":
@@ -6188,19 +2418,6 @@
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_611":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										625,
-										638
-									]
-								],
-								"scope": "gutter_color"
-							},
 							"gutter_color_625":
 							{
 								"flags": 144,
@@ -6210,19 +2427,6 @@
 									[
 										625,
 										638
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_652":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										666,
-										679
 									]
 								],
 								"scope": "gutter_color"
@@ -6240,19 +2444,6 @@
 								],
 								"scope": "gutter_color"
 							},
-							"gutter_color_794":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										808,
-										820
-									]
-								],
-								"scope": "gutter_color"
-							},
 							"gutter_color_808":
 							{
 								"flags": 144,
@@ -6262,19 +2453,6 @@
 									[
 										808,
 										820
-									]
-								],
-								"scope": "gutter_color"
-							},
-							"gutter_color_895":
-							{
-								"flags": 144,
-								"icon": "Cache/GutterColor/white.png",
-								"regions":
-								[
-									[
-										909,
-										921
 									]
 								],
 								"scope": "gutter_color"
@@ -6296,8 +2474,8 @@
 						"selection":
 						[
 							[
-								493,
-								493
+								185,
+								185
 							]
 						],
 						"settings":
@@ -6307,6 +2485,10 @@
 							[
 								{
 									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
 									"selector": "text.html"
 								},
 								{
@@ -6332,6 +2514,26 @@
 							},
 							"bracket_highlighter.regions":
 							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -6342,51 +2544,31 @@
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content"
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
 							],
 							"color_helper.file_palette":
 							[
@@ -6396,17 +2578,264 @@
 								"current_ext": ".styl",
 								"current_syntax": "Stylus/Stylus",
 								"enabled": false,
-								"last_updated": 1469130614.43
+								"last_updated": 1469604932.44
 							},
 							"side_bar_folders_auto_load_folder": 1,
 							"syntax": "Packages/Stylus/Stylus.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 382.0,
+						"translation.y": 154.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/web/DAMAGE/app/module/section-service/_section-service.styl",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 637,
+						"regions":
+						{
+							"gutter_color_247":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										266,
+										283
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_266":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/white.png",
+								"regions":
+								[
+									[
+										266,
+										283
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_398":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										428,
+										440
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_42":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/grey.png",
+								"regions":
+								[
+									[
+										42,
+										59
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_428":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										428,
+										440
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_515":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										607,
+										619
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_558":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										607,
+										619
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_577":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										607,
+										619
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_607":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/black.png",
+								"regions":
+								[
+									[
+										607,
+										619
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								350,
+								350
+							]
+						],
+						"settings":
+						{
+							"apply_syntax_touched": true,
+							"auto_complete_triggers":
+							[
+								{
+									"characters": "tab",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								},
+								{
+									"characters": ".#",
+									"selector": "text.html"
+								}
+							],
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content"
+							],
+							"color_helper.file_palette":
+							[
+							],
+							"color_helper.scan":
+							{
+								"current_ext": ".styl",
+								"current_syntax": "Stylus/Stylus",
+								"enabled": false,
+								"last_updated": 1469263293.2
+							},
+							"side_bar_folders_auto_load_folder": 1,
+							"syntax": "Packages/Stylus/Stylus.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 283.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -6419,7 +2848,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 27.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -6476,9 +2905,9 @@
 		"rows":
 		[
 			0.0,
-			0.44918699187,
+			0.447145877378,
 			0.5,
-			0.506493506494,
+			0.75,
 			1.0
 		]
 	},
@@ -6499,7 +2928,7 @@
 	"project": "DAMAGE.sublime-project",
 	"replace":
 	{
-		"height": 50.0
+		"height": 48.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -6513,12 +2942,152 @@
 				"app\\module\\header\\_header.styl"
 			],
 			[
-				"_panel",
-				"app\\module\\panel\\_panel.styl"
+				"_secwor",
+				"app\\module\\section-work\\_section-work.styl"
+			],
+			[
+				"_se",
+				"app\\module\\section-contact\\_section-contact.styl"
+			],
+			[
+				"_section",
+				"app\\module\\section-contact\\_section-contact.jade"
+			],
+			[
+				"news",
+				"app\\module\\b-news\\_b-news.styl"
+			],
+			[
+				"_secco",
+				"app\\module\\section-company\\_section-company.jade"
+			],
+			[
+				"gulp",
+				"gulpfile.js"
+			],
+			[
+				"_b-adv",
+				"app\\module\\b-adv\\_b-adv.styl"
+			],
+			[
+				"_sec",
+				"app\\module\\section-contact\\_section-contact.styl"
 			],
 			[
 				"scrip",
 				"app\\js\\script.js"
+			],
+			[
+				"_sese",
+				"app\\module\\section-service\\_section-service.jade"
+			],
+			[
+				"_ele",
+				"app\\css\\variable\\_element.styl"
+			],
+			[
+				"_b-",
+				"app\\module\\b-adv\\_b-adv.jade"
+			],
+			[
+				"_servi",
+				"app\\module\\section-service\\_section-service.styl"
+			],
+			[
+				"_hea",
+				"app\\module\\header\\_header.styl"
+			],
+			[
+				"_he",
+				"app\\module\\header\\_header.jade"
+			],
+			[
+				"sty",
+				"app\\css\\style.styl"
+			],
+			[
+				"_b-a",
+				"app\\module\\b-adv\\_b-adv.jade"
+			],
+			[
+				"_section-cont",
+				"app\\module\\section-contact\\_section-contact.jade"
+			],
+			[
+				"_slide",
+				"app\\module\\b-slider\\_b-slider.styl"
+			],
+			[
+				"_sc",
+				"app\\html\\block_html\\_script.jade"
+			],
+			[
+				"_text",
+				"app\\module\\text\\_text.jade"
+			],
+			[
+				"page",
+				"app\\html\\page.jade"
+			],
+			[
+				"ind",
+				"app\\html\\index.jade"
+			],
+			[
+				"_b-qu",
+				"app\\module\\b-question\\_b-question.jade"
+			],
+			[
+				"_b-new",
+				"app\\module\\b-news\\_b-news.styl"
+			],
+			[
+				"_footer",
+				"app\\module\\footer\\_footer.styl"
+			],
+			[
+				"_b-l",
+				"app\\module\\b-link\\_b-link.styl"
+			],
+			[
+				"gul",
+				"gulpfile.js"
+			],
+			[
+				"_b-li",
+				"app\\module\\b-link\\_b-link.jade"
+			],
+			[
+				"_con",
+				"app\\html\\block_html\\_const.jade"
+			],
+			[
+				"_news",
+				"app\\module\\b-news\\_b-news.styl"
+			],
+			[
+				"_b-n",
+				"app\\module\\b-news\\_b-news.jade"
+			],
+			[
+				"file",
+				"file.json"
+			],
+			[
+				"_pane",
+				"app\\module\\panel\\_panel.styl"
+			],
+			[
+				"_b-lis",
+				"app\\module\\b-list-service\\_b-list-service.jade"
+			],
+			[
+				"_b-ques",
+				"app\\module\\b-question\\_b-question.styl"
+			],
+			[
+				"_panel",
+				"app\\module\\panel\\_panel.styl"
 			],
 			[
 				"panel",
@@ -6533,24 +3102,8 @@
 				"app\\css\\style.styl"
 			],
 			[
-				"page",
-				"app\\html\\page.jade"
-			],
-			[
-				"_pane",
-				"app\\module\\panel\\_panel.styl"
-			],
-			[
 				"_pan",
 				"app\\module\\panel\\_panel.styl"
-			],
-			[
-				"_text",
-				"app\\module\\text\\_text.jade"
-			],
-			[
-				"_b-a",
-				"app\\module\\b-adv\\_b-adv.jade"
 			],
 			[
 				"_b-s",
@@ -6561,16 +3114,8 @@
 				"app\\module\\b-slider\\_b-slider.jade"
 			],
 			[
-				"_footer",
-				"app\\module\\footer\\_footer.styl"
-			],
-			[
 				"_s",
 				"app\\html\\block_html\\_script.jade"
-			],
-			[
-				"_b-",
-				"app\\module\\b-adv\\_b-adv.styl"
 			],
 			[
 				"_b",
@@ -6589,16 +3134,8 @@
 				".bowerrc"
 			],
 			[
-				"file",
-				"file.json"
-			],
-			[
 				"_scr",
 				"app\\html\\block_html\\_script.jade"
-			],
-			[
-				"_con",
-				"app\\css\\variable\\_constant.styl"
 			],
 			[
 				"_main",
@@ -6609,10 +3146,6 @@
 				"app\\module\\main-section\\_main-section.jade"
 			],
 			[
-				"_hea",
-				"app\\module\\header\\_header.jade"
-			],
-			[
 				"ele",
 				"app\\css\\variable\\_element.styl"
 			],
@@ -6621,16 +3154,8 @@
 				"app\\module\\header\\_header.styl"
 			],
 			[
-				"sty",
-				"app\\css\\style.styl"
-			],
-			[
 				"inde",
 				"app\\html\\index.jade"
-			],
-			[
-				"gulp",
-				"JUREXLAW\\gulpfile.js"
 			],
 			[
 				"_sl",
@@ -6639,10 +3164,6 @@
 			[
 				"styl.s",
 				"JUREXLAW\\app\\css\\style.styl"
-			],
-			[
-				"_ele",
-				"JUREXLAW\\app\\css\\variable\\_element.styl"
 			],
 			[
 				"_scrip",
@@ -6733,10 +3254,6 @@
 				"app\\css\\style.styl"
 			],
 			[
-				"_servi",
-				"app\\css\\include\\_service-value.styl"
-			],
-			[
 				"_ser",
 				"app\\html\\block_html\\elements\\_service-value.jade"
 			],
@@ -6785,16 +3302,8 @@
 				"app\\html\\block_html\\_script.jade"
 			],
 			[
-				"_he",
-				"app\\css\\include\\_header.styl"
-			],
-			[
 				"slider",
 				"app\\html\\block_html\\elements\\_slider.jade"
-			],
-			[
-				"gul",
-				"gulpfile.js"
 			],
 			[
 				"_relsx",
@@ -6939,86 +3448,6 @@
 			[
 				"_b-commne",
 				"SOLAR\\app\\html\\block_html\\elements\\_b-comment.jade"
-			],
-			[
-				"_pag",
-				"SOLAR\\app\\css\\include\\_b-pagination.styl"
-			],
-			[
-				"_b-gal",
-				"app\\css\\include\\_b-galary.styl"
-			],
-			[
-				"_vaca",
-				"app\\css\\include\\_b-vacancy.styl"
-			],
-			[
-				"_b-vaca",
-				"app\\html\\block_html\\elements\\_b-vacancy.jade"
-			],
-			[
-				"_b-con",
-				"app\\css\\include\\_b-contacts.styl"
-			],
-			[
-				"_b-cont",
-				"app\\html\\block_html\\elements\\_b-contacts.jade"
-			],
-			[
-				"cont",
-				"app\\contacts.html"
-			],
-			[
-				"_b-ot",
-				"app\\html\\block_html\\elements\\_b-other-service.jade"
-			],
-			[
-				"const",
-				"app\\css\\variable\\_constant.styl"
-			],
-			[
-				"_p-",
-				"app\\css\\include\\_p-promotion.styl"
-			],
-			[
-				"_p",
-				"app\\html\\block_html\\elements\\_p-promotion.jade"
-			],
-			[
-				"_p_pro",
-				"app\\html\\block_html\\elements\\_p-promotion.jade"
-			],
-			[
-				"promo",
-				"app\\html\\promotion.jade"
-			],
-			[
-				"_b-pag",
-				"app\\css\\include\\_b-pagination.styl"
-			],
-			[
-				"_b-mark",
-				"app\\css\\include\\_b-mark.styl"
-			],
-			[
-				"_b-m",
-				"app\\html\\block_html\\elements\\_b-mark.jade"
-			],
-			[
-				"allpa",
-				"app\\html\\allpage.jade"
-			],
-			[
-				"_gala",
-				"app\\html\\block_html\\elements\\_b-galary.jade"
-			],
-			[
-				"b-gal",
-				"app\\css\\include\\_b-galary.styl"
-			],
-			[
-				"_sty",
-				"app\\html\\block_html\\_style.jade"
 			]
 		],
 		"width": 0.0
@@ -7057,7 +3486,7 @@
 		],
 		"width": 631.0
 	},
-	"selected_group": 4,
+	"selected_group": 5,
 	"settings":
 	{
 	},

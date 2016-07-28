@@ -95,8 +95,9 @@ defaultSlider(".questions--wraper");
 
 	if ($(window).width()<768) {
 		hideToggle('.header .icon-bars','.header-nav');
+		hideToggle('.list-service .icon-bars','.list-service__content');
 	}
-	hideToggle('.list-service .icon-bars','.list-service__content');
+	
 
 	setInterval(function() {
 		$('.panel__get').addClass('shake')

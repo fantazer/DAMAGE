@@ -422,6 +422,9 @@ table tbody tr:hover th {
     display: none;
   }
 }
+.large-only tr td:nth-child(2) {
+  width: 20%;
+}
 @media only screen and (max-width: 768px) {
   .st-head-row p {
     text-align: left !important;
@@ -674,6 +677,28 @@ table tbody tr:hover th {
   display: block;
   text-align: center;
 }
+.wpcf7-submit {
+  background: #fff;
+  width: auto !important;
+}
+@media only screen and (max-width: 768px) {
+  .wpcf7-submit {
+    width: 100% !important;
+  }
+}
+.star__reting img {
+  display: inline;
+}
+.span_h2 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111;
+}
+@media only screen and (max-width: 768px) {
+  .span_h2 {
+    font-size: 14px;
+  }
+}
 @-webkit-keyframes slideInDown {
   from {
     -webkit-transform: translate3d(0, -100%, 0);
@@ -839,6 +864,14 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+@media only screen and (max-width: 996px) {
+  .adv__el {
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 .adv__number {
   font-size: 28px;
   color: #111;
@@ -939,6 +972,7 @@ body {
   .news__img {
     width: 100%;
     margin-bottom: 20px;
+    display: none !important;
   }
 }
 .news__content {
@@ -1170,7 +1204,7 @@ body {
   background: none;
 }
 .header__logo {
-  height: 50px;
+  height: 60px;
   background-image: url("../img/logo-light.png");
   width: 250px;
   background-size: contain;
@@ -1282,6 +1316,10 @@ body {
 }
 .header__toggle:hover {
   cursor: pointer;
+}
+.header-main {
+  position: absolute;
+  background: none;
 }
 /* block main-section !*/
 .main-section {
@@ -1530,6 +1568,9 @@ body {
   color: #111;
   position: relative;
 }
+.section__contact {
+  padding-top: 0px;
+}
 .contact {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1622,6 +1663,23 @@ body {
 @media only screen and (max-width: 768px) {
   .contact__consult {
     font-size: 12px;
+  }
+}
+.contact__time {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #fff;
+  background: #cb507a;
+  text-align: center;
+  padding-bottom: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .contact__time {
+    font-size: 12px;
+    display: block;
   }
 }
 .section-get__subtitle {
@@ -1785,6 +1843,7 @@ body {
           align-items: stretch;
 }
 .service__el {
+  position: relative;
   width: 24%;
   margin-bottom: 40px;
   background: #fff;
@@ -1809,6 +1868,9 @@ body {
 .service__info {
   padding: 20px;
 }
+.service__info .type--md {
+  min-height: 70px;
+}
 .service__img {
   height: 250px;
   text-transform: uppercase;
@@ -1818,7 +1880,7 @@ body {
   color: #111;
 }
 .service__text {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .service__footer {
   display: -webkit-box;
@@ -1833,6 +1895,9 @@ body {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 85%;
+  position: absolute;
+  bottom: 20px;
 }
 .service__footer .btn {
   margin-bottom: 0;
@@ -1882,7 +1947,7 @@ body {
           flex-wrap: wrap;
 }
 .how-work__col {
-  width: 20%;
+  width: 25%;
 }
 @media only screen and (max-width: 768px) {
   .how-work__col {
@@ -1924,7 +1989,7 @@ body {
 }
 .how-work__img {
   padding: 10px;
-  width: 60%;
+  width: 50%;
 }
 @media only screen and (max-width: 768px) {
   .how-work__img {

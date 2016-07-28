@@ -200,9 +200,7 @@ gulp.task('make', function () {
   .pipe(uglify())
   .pipe(gulp.dest('dist/js/'));
    gulp.src('app/css/style.css')
-  .pipe(combineMq({
-          beautify: true
-  }))
+  .pipe(minifyCss())
   .pipe(gulp.dest('dist/css/'));
   return gulp.src('app/*.html')
       .pipe(cache('make'))
