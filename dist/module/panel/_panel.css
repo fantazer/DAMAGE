@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+  .is-sticky .panel {
+    left: -10px;
+    width: calc(100% + 12px) !important;
+  }
+}
+.panel {
+  background: #fff;
+  align-items: initial;
+  z-index: 200;
+  border: 1px solid #ededed;
+}
+@media only screen and (max-width: 768px) {
+  .panel {
+    left: -10px;
+    width: calc(100% + 22px) !important;
+    position: relative;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .panel__ready {
+    display: none !important;
+  }
+}
+.panel__el {
+  padding: 5px 10px;
+  color: #000;
+  border-right: 1px solid #eee;
+  flex-grow: 1;
+}
+.panel__title {
+  font-size: 12px;
+  color: #00f;
+  font-weight: 700;
+}
+.panel__info {
+  font-size: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .panel__info {
+    font-size: 12px;
+  }
+}
+.panel__info span {
+  font-size: 12px;
+}
+.panel__price .panel__info {
+  color: #f00;
+}
+.panel__get {
+  background: #00f;
+  color: #fff;
+  font-size: 18px;
+  width: 13%;
+}
+@media only screen and (max-width: 768px) {
+  .panel__get {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.panel__star i {
+  color: #00f;
+  font-size: 16px;
+}

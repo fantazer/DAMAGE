@@ -1,0 +1,86 @@
+/*.section__contact
+	padding-top 0px*/
+.contact {
+  align-items: initial;
+}
+.contact .type {
+  text-align: left;
+}
+.contact__form {
+  order: 1;
+  width: 48%;
+  padding: 30px;
+  background: #f0f0f0;
+}
+@media only screen and (max-width: 768px) {
+  .contact__form {
+    width: 100%;
+    order: 2;
+  }
+  .contact__form button {
+    width: 100%;
+  }
+}
+.contact__form input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.contact__form textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.section__contact {
+  background: #808080;
+}
+.contact__text {
+  padding: 30px;
+  background: #f0f0f0;
+  margin-bottom: 20px;
+}
+.contact__phone {
+  font-size: 42px;
+}
+@media only screen and (max-width: 768px) {
+  .contact__phone {
+    font-size: 24px;
+  }
+}
+.contact__info {
+  order: 2;
+  width: 48%;
+}
+@media only screen and (max-width: 768px) {
+  .contact__info {
+    width: 100%;
+    order: 1;
+  }
+}
+.contact__consult {
+  font-size: 20px;
+  color: #fff;
+  background: #f00;
+  text-align: center;
+  padding-bottom: 0px;
+  padding: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .contact__consult {
+    font-size: 12px;
+  }
+}
+.contact__time {
+  font-size: 20px;
+  color: #fff;
+  background: #f00;
+  text-align: center;
+  padding-bottom: 0px;
+  padding: 10px;
+  margin-bottom: 20px;
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .contact__time {
+    font-size: 12px;
+    display: block;
+  }
+}

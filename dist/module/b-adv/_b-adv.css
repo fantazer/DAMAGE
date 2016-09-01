@@ -1,0 +1,30 @@
+.advant {
+  background: #fff;
+  margin-bottom: 20px;
+  display: block !important;
+}
+@media only screen and (max-width: 768px) {
+  .advant {
+    display: none !important;
+  }
+}
+.adv__el {
+  padding: 20px;
+  border-bottom: 1px solid #808080;
+}
+@media only screen and (max-width: 996px) {
+  .adv__el {
+    justify-content: flex-start;
+  }
+}
+.adv__el i {
+  color: #f00;
+  font-size: 46px;
+  font-family: Flaticon;
+}
+.adv__number {
+  font-size: 28px;
+  color: #000;
+  padding: 0 20px;
+  font-weight: 700;
+}

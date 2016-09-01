@@ -5,6 +5,10 @@
 			left -10px
 			width calc(100% + 12px)!important
 .panel
+	+below(768px)
+		left  -10px
+		width calc(100% + 22px) !important
+		position relative
 	flex(between)
 	fw()
 	background white
@@ -29,19 +33,18 @@
 	+below(768px)
 		font-size 12px
 	font-size 24px
-	font-weight 600 
 	up()
 	span
 		font-size 12px
 .panel__price
-	.panel__title
-		color red
 	.panel__info
 		color red
 .panel__get
 	+below(768px)
 		width 100%
 		padding 10px
+		padding 8px
+		font-size 12px
 	flex(mid)
 	up()
 	background blue

@@ -1,0 +1,44 @@
+.call {
+  padding: 20px;
+  margin-bottom: 40px;
+}
+.call__phone {
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .call__phone {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.call__text {
+  width: 50%;
+}
+@media only screen and (max-width: 768px) {
+  .call__text {
+    width: 100%;
+  }
+}
+.call__number {
+  font-size: 50px;
+  color: #000;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 992px) {
+  .call__number {
+    font-size: 20px;
+  }
+}
+.call__title {
+  font-size: 20px;
+  color: #000;
+}
+@media only screen and (max-width: 992px) {
+  .call__title {
+    font-size: 16px;
+  }
+}
+.call__free {
+  font-weight: 700;
+  color: #f00;
+}

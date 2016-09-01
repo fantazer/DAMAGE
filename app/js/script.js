@@ -1,4 +1,40 @@
 $(document).ready(function(){
+
+	//modal
+	$('.get-modal').click(function(){
+			$('.modal').bPopup({
+				closeClass:'icon-times',
+					position:['auto','auto'], // position center
+					follow: [true,false],
+					positionStyle: 'fixed'
+			}); 
+	})
+	//calc
+	$('.calc-block').click(function(){
+		var  cost = $(this).data('calcprice');
+		var  constPrice = 500;
+		$('.calc-block__el input').change(function(){
+			var numbCheck = $('.calc-block__el input').length;
+			if(numbCheck  > 0 ){
+				$('.calc-block__el input').each(function(){
+					if ($(this).is(':checked')) {
+						cost += $(this).data('cost');
+						console.log(cost);
+					};
+					$('.calc-block__val  span').text(cost);
+				})
+			} else {
+				$('.calc-block__val  span').text(0);
+			}
+		})
+
+		/*$('.input_mo').change(function(){
+			if (cost  != 0) {
+				cost+=constRange;
+			};
+		})*/
+		
+	})
 	/* ###### For only ies  ######*/
 	//if(/MSIE \d|Trident.*rv:/.test(navigator.userAgent)){
 	//	//code
@@ -60,7 +96,7 @@ var defaultSlider = function(element){
 defaultSlider(".slider");
 defaultSlider(".questions--wraper");
 	//animate header
-	var shrinkHeader = 100;
+	var shrinkHeader = 20;
 	$(window).scroll(function() {
 	    var scroll = $(this).scrollTop();
 	      if ( scroll >= shrinkHeader ) {
@@ -101,11 +137,11 @@ defaultSlider(".questions--wraper");
 
 	setInterval(function() {
 		$('.panel__get').addClass('shake')
-	}, 16000);
+	}, 26000);
 	
 	setInterval(function() {
 		$('.panel__get').removeClass('shake')
-	}, 18000);	
+	}, 28000);	
 	/* ###### init RangeSLider  ######*/
 	/* ###### bower i --save-dev nouislider  ######*/
 	/* ###### https://gist.github.com/fantazer/2bdc4e6a63708e143718ffa7c32eae17  ######*/
@@ -125,6 +161,7 @@ defaultSlider(".questions--wraper");
 			density: 4
 		}
 	});*/
+	
 	
 
 	

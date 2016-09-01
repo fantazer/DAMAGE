@@ -8,6 +8,16 @@ h1,h2,h3,h4,h5
 	+below(768px)
 		font-size 10px
 	font-size 12px
+.type--mid
+	text-align center
+h1
+	font-size 24px	
+	+below(768px)
+		font-size 19px!important
+h2,h3,h4,.span_h2
+	font-size 22px!important
+	+below(768px)
+		font-size 18px!important
 
 .type
 	+below(768px)
@@ -97,19 +107,39 @@ h1,h2,h3,h4,h5
 
 
 @keyframes shake {
- 0% {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+  from {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 
-  10%, 30%, 50%, 70%, 90% {
-    -webkit-transform: translate3d(-10px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
+  30% {
+    -webkit-transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
 
-  20%, 40%, 60%, 80% {
-    -webkit-transform: translate3d(10px, 0, 0);
-    transform: translate3d(10px, 0, 0);
+  40% {
+    -webkit-transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    -webkit-transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    -webkit-transform: scale3d(.95, 1.05, 1);
+    transform: scale3d(.95, 1.05, 1);
+  }
+
+  75% {
+    -webkit-transform: scale3d(1.05, .95, 1);
+    transform: scale3d(1.05, .95, 1);
+  }
+
+  to {
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }
 
@@ -236,7 +266,7 @@ table
 	background red
 	flex(mid)
 	color white 
-	padding 10px
+	padding 17px
 	font-size 18px
 	up()
 .block-header--blue
@@ -306,5 +336,92 @@ table
 	font-size 16px
 	font-weight 700 
 	color black
+	display block 
 	+below(768px)
 		font-size 14px
+
+.video
+	width 100%
+	height 300px
+	margin-top 20px
+	iframe
+		height 100%
+
+.metro-wraper 
+	flex(mid)
+	fw()
+	margin-top 20px
+.metro-el
+	+below(768px)
+		font-size 10px
+	padding 3px 10px 
+	
+.style-label
+	display flex
+	position relative
+	align-items center
+
+//Style checkbox
+.sytle-input-element
+	width 25px
+	height 25px
+	position relative
+	display inline-block
+	//background-image url('')
+	//background-size cover
+	border 1px solid red 
+	margin-right 10px
+	cp()
+.sytle-input
+	position absolute
+	top 0
+	left -999px
+	&:checked + .sytle-input-element
+		//background-image url('')
+		flex(mid)
+		background red
+		color white
+		&:before
+			content '\70'
+			font-family "main" !important
+
+//modal
+.modal-wraper
+	form
+		f()
+		fw()
+		fl()
+	input,textarea
+		margin-bottom 20px
+.b-modal
+	background grey!important
+	opacity 1 !important
+	z-index 9999!important
+.modal
+	+below(768px)
+		width 100%
+		margin-top 0px
+	margin-top 40px
+	width 400px
+	display none
+	background grey
+	padding 30px 20px
+	br(4px) 
+	position relative
+	.icon-times
+		position absolute
+		top 10px
+		right 10px
+		font-size 22px
+		cp()
+
+.breadcrumbs
+	+below(768px)
+		display none 
+	margin-top 20px
+	color black
+	background white
+	padding 10px 
+	span
+		color blue
+		

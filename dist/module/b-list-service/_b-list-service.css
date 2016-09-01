@@ -1,0 +1,25 @@
+.list-service__el {
+  display: inline-block;
+  padding: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+  border-bottom: 1px solid #808080;
+  position: relative;
+  width: 100%;
+}
+.list-service__el:before {
+  content: " > ";
+  position: absolute;
+  left: -5px;
+  color: #f00;
+}
+@media only screen and (max-width: 768px) {
+  .list-service {
+    margin-bottom: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .list-service .block-content {
+    display: none;
+  }
+}

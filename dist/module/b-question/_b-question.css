@@ -1,0 +1,7 @@
+.questions--el a {
+  color: #00f;
+  text-decoration: underline;
+  font-size: 12px;
+  margin-bottom: 20px;
+  display: inline-block;
+}

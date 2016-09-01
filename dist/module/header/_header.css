@@ -1,0 +1,80 @@
+.header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00f;
+}
+.header__top {
+  position: absolute;
+  background: none;
+}
+.header__logo {
+  height: 60px;
+  background-image: url("../img/logo-light.png");
+  width: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+@media only screen and (max-width: 768px) {
+  .header__logo {
+    width: 120px;
+    height: 30px;
+  }
+}
+.header-wraper {
+  padding: 10px 0;
+}
+.header-nav {
+  width: 40%;
+  z-index: 9999;
+}
+@media only screen and (max-width: 768px) {
+  .header-nav {
+    display: none;
+    width: 100%;
+    position: absolute;
+    background: #a22525;
+    top: 100%;
+    left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header__el {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+  }
+}
+.header__el a {
+  font-size: 16px;
+  color: #fff;
+}
+.header__cont {
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .header__cont {
+    font-size: 16px;
+  }
+  .header__cont .icon-bars {
+    margin-left: 10px;
+  }
+}
+.header__toggle {
+  display: none;
+  color: #fff;
+  font-size: 22px;
+}
+@media only screen and (max-width: 768px) {
+  .header__toggle {
+    display: inline;
+  }
+}
+.header-main {
+  position: absolute;
+  background: none;
+}

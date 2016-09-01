@@ -358,29 +358,24 @@
 					<div class="content__right">
 						<!--block b-adv-->
 						<div class="adv">
-							<div class="block-header">Нас выбирают</div>
+							<div class="block-header">Нас выбирают!</div>
 							<div class="adv__el">
-								<img src="img/icon-adv-1.jpg" alt="" class="adv__img" />
+								<i class="flaticon-group"></i>
 								<div class="adv__number">92802</div>
 								<div class="adv__text">выполненно оценок</div>
 							</div>
 							<div class="adv__el">
-								<img src="img/icon-adv-2.jpg" alt="" class="adv__img" />
+								<i class="flaticon-group-1"></i>
 								<div class="adv__number">92802</div>
 								<div class="adv__text">выполненно оценок</div>
 							</div>
 							<div class="adv__el">
-								<img src="img/icon-adv-3.jpg" alt="" class="adv__img" />
+								<i class="flaticon-presentation"></i>
 								<div class="adv__number">92802</div>
 								<div class="adv__text">выполненно оценок</div>
 							</div>
 							<div class="adv__el">
-								<img src="img/icon-adv-4.jpg" alt="" class="adv__img" />
-								<div class="adv__number">92802</div>
-								<div class="adv__text">выполненно оценок</div>
-							</div>
-							<div class="adv__el">
-								<img src="img/icon-adv-5.jpg" alt="" class="adv__img" />
+								<i class="flaticon-promotion"></i>
 								<div class="adv__number">92802</div>
 								<div class="adv__text">выполненно оценок</div>
 							</div>
@@ -388,7 +383,7 @@
 						<!--block b-adv end-->
 						<!--block b-list-service-->
 						<div class="list-service">
-							<div class="block-header block-header--blue block-header--toggle"> Наши услуги
+							<div class="block-header block-header--toggle"> Наши услуги
 								<i class="icon-bars"></i>
 							</div>
 							<div class="block-content list-service__content">
@@ -418,7 +413,7 @@
 						<!--block b-list-service end-->
 						<!--block b-question-->
 						<div class="questions">
-							<div class="block-header block-header--blue block-header--toggle"> Частые вопросы</div>
+							<div class="block-header block-header--toggle"> Частые вопросы</div>
 							<div class="block-content">
 								<div class="questions--wraper owl-carousel">
 									<div class="questions--el">
@@ -502,11 +497,25 @@
 			<a href="" class="footer__phone"> 8(495)483-21-21</a>
 		</div>
 	</div>
+	<div class="modal">
+		<div class="icon-times"></div>
+		<div class="modal-wraper">
+			<div class="type type--md">Оформление заявки</div>
+			<form action="#">
+				<input type="text" placeholder="Ваше имя" />
+				<input type="phone" placeholder="Ваше телефон" />
+				<input type="email" placeholder="Ваша почта" />
+				<textarea name="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+				<button class="btn btn--lg">Отправить</button>
+			</form>
+		</div>
+	</div>
 	<!--Include footer-->
 	<!--build:js js/combined.js-->
 	<script src="bower/jquery/dist/jquery.js"></script>
 	<script src="bower/owl.carousel/dist/owl.carousel.min.js"></script>
-	<!--script(src="js/jquery.smoothscroll.js")-->
+	<script src="bower/bPopup/jquery.bpopup.min.js"></script>
+	<script src="js/jquery.smoothscroll.js"></script>
 	<script src="bower/jquery-sticky/jquery.sticky.js"></script>
 	<script src="bower/stacktable.js/stacktable.js"></script>
 	<!-- endbuild-->

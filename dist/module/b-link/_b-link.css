@@ -1,0 +1,22 @@
+.links {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .links {
+    display: none;
+  }
+}
+.links__el {
+  padding: 5px;
+  border: 1px solid #808080;
+  margin: 5px;
+  font-size: 12px;
+}
+.links__el:hover {
+  background: #00f;
+}
+.links__el:hover a {
+  color: #fff;
+}

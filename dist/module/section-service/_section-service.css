@@ -1,0 +1,56 @@
+.section-service {
+  background: #808080;
+}
+.service__wraper {
+  align-items: stretch;
+}
+.service__el {
+  position: relative;
+  width: 24%;
+  margin-bottom: 40px;
+  background: #fff;
+}
+@media only screen and (max-width: 996px) {
+  .service__el {
+    width: 32%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .service__el {
+    width: 48%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .service__el {
+    width: 100%;
+  }
+}
+.service__info {
+  padding: 20px;
+}
+.service__info .type--md {
+  min-height: 70px;
+}
+.service__img {
+  height: 250px;
+  background-size: cover;
+}
+.service__title {
+  color: #000;
+}
+.service__text {
+  margin-bottom: 50px;
+}
+.service__footer {
+  width: 85%;
+  position: absolute;
+  bottom: 20px;
+}
+.service__footer .btn {
+  margin-bottom: 0;
+}
+.service__price {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+}

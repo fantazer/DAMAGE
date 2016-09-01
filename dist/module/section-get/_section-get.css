@@ -1,0 +1,32 @@
+.section-get__subtitle {
+  width: 40%;
+  min-width: 400px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+@media only screen and (max-width: 768px) {
+  .section-get__subtitle {
+    width: 100%;
+    min-width: 100%;
+    padding: 0px 20px;
+  }
+}
+.section-get {
+  position: relative;
+  background-position: fixed;
+  background-image: url("../img/image-3.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media only screen and (max-width: 768px) {
+  .section-get {
+    background: #808080;
+  }
+}
+.section-get__content {
+  position: relative;
+}
+.section-get__content p {
+  color: #000;
+}

@@ -1,0 +1,59 @@
+.positive {
+  background: #00f;
+  background: #00f;
+  padding: 20px 30px;
+}
+@media only screen and (max-width: 768px) {
+  .positive i:before {
+    font-size: 60px;
+  }
+}
+.positive .span_h2 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.positive-wraper {
+  align-items: inherit;
+  padding: 20px 0;
+}
+.positive-wraper p {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.positive-el {
+  margin-bottom: 40px;
+  padding: 20px;
+  border: 1px solid #fff;
+  width: 48%;
+}
+@media only screen and (max-width: 768px) {
+  .positive-el {
+    width: 100%;
+  }
+}
+.positive-el__icon {
+  margin-right: 20px;
+  color: #fff;
+}
+.positive-el__title {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+  .positive-el__title {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.positive-el__text {
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .positive-el__text {
+    text-align: center;
+  }
+}

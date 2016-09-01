@@ -1,0 +1,57 @@
+.section-company {
+  padding: 0;
+  display: flex;
+}
+.section-company__image {
+  background-image: url("../img/image-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top right;
+  width: 40%;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .section-company__image {
+    background: #00f;
+    width: 10%;
+  }
+}
+.section-company__info {
+  align-items: flex-start;
+  width: 60%;
+  padding: 140px;
+}
+@media only screen and (max-width: 992px) {
+  .section-company__info {
+    width: 100%;
+    padding: 80px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section-company__info {
+    padding: 40px 20px;
+  }
+}
+.section-company__info p {
+  width: 70%;
+}
+@media only screen and (max-width: 768px) {
+  .section-company__info p {
+    width: 100%;
+  }
+}
+.section-company__info .type {
+  text-align: left;
+  width: 100%;
+}
+.company__lg-title {
+  width: 100%;
+  font-size: 40px;
+  color: #000;
+  position: relative;
+}
+.company__md-title {
+  width: 100%;
+  color: #000;
+  position: relative;
+}

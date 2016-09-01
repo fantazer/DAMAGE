@@ -1,0 +1,110 @@
+mixin b-calc()
+	//block b-calc
+	h2 Как происходит оценка при заливе
+	.calc-wraper
+		.calc__col
+			.calc__el
+				.calc__icon
+					i.flaticon-documentation
+				.calc__info
+					.calc__title 1. Получение заявки
+					.calc__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae obcaecati, ipsam accusantium, minima ex animi explicabo quidem minus rem dolorem.
+
+			.calc__el
+				.calc__icon
+					i.flaticon-megaphone
+				.calc__info
+					.calc__title 2. Звонок оценщика
+					.calc__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae obcaecati, ipsam accusantium, minima ex animi explicabo quidem minus rem dolorem.
+
+			.calc__el
+				.calc__icon
+					i.flaticon-suitcase
+				.calc__info
+					.calc__title 3. Прибытие на место
+					.calc__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae obcaecati, ipsam accusantium, minima ex animi explicabo quidem minus rem dolorem.
+
+			.calc__el
+				.calc__icon
+					i.flaticon-calculator
+				.calc__info
+					.calc__title 4. Расчет повреждений
+					.calc__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae obcaecati, ipsam accusantium, minima ex animi explicabo quidem minus rem dolorem.
+
+			.calc__el
+				.calc__icon
+					i.flaticon-employee
+				.calc__info
+					.calc__title 5. Подготовка отчета
+					.calc__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae obcaecati, ipsam accusantium, minima ex animi explicabo quidem minus rem dolorem.
+
+			.calc__el
+				.calc__icon
+					i.flaticon-target
+				.calc__info
+					.calc__title 6. Что делать если не платят
+					.calc__text  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae obcaecati, ipsam accusantium, minima ex animi explicabo quidem minus rem dolorem.
+		.calc__col.calc-block
+			.calc-block__title Расчет стоимости услуги
+			p Выберите поврежденные комнаты
+			
+
+			.calc-block__rooms
+				.calc-block__el
+					label.style-label
+						input(type="checkbox" data-cost="500").sytle-input
+						.sytle-input-element
+						.sytle-input-text Прихожая
+				
+				.calc-block__el
+					label.style-label
+						input(type="checkbox" data-cost="500").sytle-input
+						.sytle-input-element
+						.sytle-input-text Коридор
+				
+				.calc-block__el
+					label.style-label
+						input(type="checkbox" data-cost="500").sytle-input
+						.sytle-input-element
+						.sytle-input-text Ванная 
+				
+				.calc-block__el
+					label.style-label
+						input(type="checkbox" data-cost="500").sytle-input
+						.sytle-input-element
+						.sytle-input-text Туалет
+				
+				.calc-block__el
+					label.style-label
+						input(type="checkbox" data-cost="500").sytle-input
+						.sytle-input-element
+						.sytle-input-text Кухня
+				
+				.calc-block__el
+					label.style-label
+						input(type="checkbox" data-cost="500").sytle-input
+						.sytle-input-element
+						.sytle-input-text Комната
+
+			.calc-block__location
+				p Где вы находитесь
+				.calc-block__el
+					label.style-label
+						input(type="radio" name="location" data-cost="0").sytle-input
+						.sytle-input-element
+						.sytle-input-text Москва - Бесплатно
+				.calc-block__el
+					label.style-label
+						input(type="radio" name="location" data-cost="1000").sytle-input.input_mo
+						.sytle-input-element
+						.sytle-input-text Московская область  + 1000р
+			.calc-block-cost
+				.calc-block-cost__title Стоимость
+				.calc-block__val  <span>0</span> р.
+			.calc-block__get.get-modal Заказать оценку
+
+
+
+
+				
+	//block b-calc end

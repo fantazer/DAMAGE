@@ -17,7 +17,11 @@
 		"b-list-service":"b-list-service",
 		"b-question":"b-question",
 		"b-news":"b-news",
-		"b-link":"b-link"
+		"b-link":"b-link",
+		"b-calc":"b-calc",
+		"b-positive":"b-positive",
+		"b-call":"b-call",
+		"b-img":"b-img"
 	},
 	"page":{
 		"index":"index"

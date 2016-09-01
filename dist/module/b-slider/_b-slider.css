@@ -1,0 +1,74 @@
+@media only screen and (max-width: 768px) {
+  .slider {
+    display: none !important;
+  }
+}
+.slider-el {
+  padding: 20px;
+}
+.slider-el p {
+  font-size: 12px;
+  width: 60%;
+  margin: 20px auto;
+  text-align: center;
+}
+.slider__img {
+  width: 60%;
+}
+@media only screen and (max-width: 768px) {
+  .slider__img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+.slider__img img {
+  width: 70%;
+}
+.slider__info {
+  align-items: flex-start;
+  width: 40%;
+}
+@media only screen and (max-width: 768px) {
+  .slider__info {
+    align-items: center;
+    width: 100%;
+  }
+}
+.slider__text-lg {
+  color: #00f;
+  font-size: 30px;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .slider__text-lg {
+    font-size: 10px;
+  }
+}
+.slider__text-md {
+  color: #f00;
+  font-size: 22px;
+}
+@media only screen and (max-width: 768px) {
+  .slider__text-md {
+    font-size: 10px;
+  }
+}
+.slider__price {
+  font-size: 60px;
+  color: #000;
+  font-weight: 700;
+}
+@media only screen and (max-width: 768px) {
+  .slider__price {
+    font-size: 20px;
+  }
+}
+.slider__price span {
+  font-size: 14px;
+}
+.slider__price .slider {
+  padding: 60px 0px;
+}
+.owl-carousel .owl-item img {
+  width: initial;
+}

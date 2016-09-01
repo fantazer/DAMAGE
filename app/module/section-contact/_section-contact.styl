@@ -1,6 +1,6 @@
 // block section-contact
-.section__contact
-	padding-top 0px
+/*.section__contact
+	padding-top 0px*/
 .contact
 	+below(768px)
 		fw()
@@ -11,8 +11,10 @@
 .contact__form
 	+below(768px)
 		width 100%
+		order 2
 		button
 			width 100%
+	order 1
 	width 48%
 	padding 30px
 	background #f0f0f0
@@ -35,17 +37,19 @@
 .contact__info
 	+below(768px)
 		width 100%
-	width 48%
+		order 1
 	f()
 	fl()
-
+	order 2
+	width 48%
+	
 .contact__consult
 	+below(768px)
 		font-size 12px
 	up()
 	font-size 20px
 	color white
-	background #cb507a
+	background red
 	text-align center
 	padding-bottom 0px
 	padding 10px
@@ -57,7 +61,7 @@
 	up()
 	font-size 20px
 	color white
-	background #cb507a
+	background red
 	text-align center
 	padding-bottom 0px
 	padding 10px

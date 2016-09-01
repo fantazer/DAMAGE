@@ -1,10 +1,6 @@
 mixin panel()
 	//block panel
 	.panel
-		.panel__el.panel__price
-			.panel__title  Цена
-			.panel__info 3400
-				span руб
 		.panel__el
 			.panel__title  Время
 			.panel__info 3-4 
@@ -15,5 +11,9 @@ mixin panel()
 		.panel__el.panel__ready
 			.panel__title Оценщик
 			.panel__info готов
+		.panel__el.panel__price
+			.panel__title  Цена
+			.panel__info 3400
+				span руб
 		a(href="#").panel__el.panel__get Заказать
 	//block panel end
