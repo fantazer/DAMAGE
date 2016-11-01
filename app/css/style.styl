@@ -13,12 +13,12 @@ rupture.scale = 0 480px 768px 992px 1200px
 rupture.scale-names = 'xs' 'sm' 'md' 'lg'
 jeet.gutter = 1
 
-
 body
-	font-size 14px
+	font-size 15px
 	font-family 'Open Sans'
 	overflow-x hidden
-	color #616161
+	//color #616161
+	background #fbfbfb 
 .main-cont
 	center(1200px)
 	position relative
@@ -41,6 +41,7 @@ body
 	flex(between)
 	align-items flex-start
 	margin-top 30px
+	z-index 2000
 .content__left
 	+below(996px)
 		width 100%
@@ -57,6 +58,23 @@ body
 	background #e8e8eb !important
 .ya-share2
 	margin-top 20px
+p,li
+	+below(768px)
+		font-size 14px 
+	margin-bottom 30px
+	font-size 16px
+	line-height 24px
+ul
+	margin-bottom 30px
+.st-head-row
+	p
+		font-size 14px
+.st-key 
+	p
+		strong 
+			color black
+			font-weight 400 
+
 @import "../module/**/*"
 
 

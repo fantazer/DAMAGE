@@ -1,14 +1,20 @@
 //! block panel
 .is-sticky
 	.panel
+		top inherit!important
+		bottom 0 !important
 		+below(768px)
 			left -10px
 			width calc(100% + 12px)!important
+			overflow hidden
+			border 0px 
+			
 .panel
 	+below(768px)
 		left  -10px
 		width calc(100% + 22px) !important
 		position relative
+		overflow hidden
 	flex(between)
 	fw()
 	background white
@@ -37,14 +43,20 @@
 	span
 		font-size 12px
 .panel__price
+	background red
+	cp() 
+	.panel__title
+		color white
 	.panel__info
-		color red
+		color white
+		font-weight 700
 .panel__get
 	+below(768px)
 		width 100%
 		padding 10px
-		padding 8px
+		padding 12px
 		font-size 12px
+		max-width 100%
 	flex(mid)
 	up()
 	background blue

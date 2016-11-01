@@ -4,28 +4,32 @@ body
 	//Include header
 	include block_html/_const.jade
 	include ../module/**/*.jade
-	
 	+header()
-	.content
-		.main-cont
-			.content__wraper
-					+b-slider()
-					.content__info
-						.content__left
-							+panel()
-							+text()
-							+b-img()
-							+text()
-							+b-calc()
-							+b-call()
-							//+b-news()
-							//+b-link()
-						.content__right
-							+b-adv()
-							+b-list-service()
-							+b-question()
-		+b-positive()
-	+section-contact()
-	+footer
+	.animsition
+		.content
+			.main-cont
+				.content__wraper
+						+b-slider()
+						.content__info
+							.content__left
+								+panel()
+								+text()
+								+b-img()
+								+text()
+								+b-attantion()
+								+b-calc()
+
+								
+								.js-lazyYT(data-youtube-id="hEvNQVZIb8w"   style="width:100%;")
+								+b-call()
+								//+b-news()
+								//+b-link()
+							.content__right
+								+b-adv()
+								+b-list-service()
+								+b-question()
+			+b-positive()
+		+section-contact()
+		+footer
 	//Include footer
 	include ./block_html/_script.jade

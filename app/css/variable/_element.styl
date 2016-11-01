@@ -18,7 +18,8 @@ h2,h3,h4,.span_h2
 	font-size 22px!important
 	+below(768px)
 		font-size 18px!important
-
+.span_h2
+	margin 20px 0
 .type
 	+below(768px)
 		font-size 14px
@@ -104,7 +105,39 @@ h2,h3,h4,.span_h2
 	}
 }
 
+@-webkit-keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
 
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.slideInUp {
+  -webkit-animation-name: slideInUp;
+  animation-name: slideInUp;
+}
+
+.shrinkOut
+	animation:  slideInUp  4s 1 ease-in-out		
 
 @keyframes shake {
   from {
@@ -147,6 +180,11 @@ h2,h3,h4,.span_h2
   animation  shake  1s  
 }
 
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
 .shrink
 	position fixed!important
 	top 0
@@ -156,7 +194,7 @@ h2,h3,h4,.span_h2
 	margin 0
 	animation:  slideInDown  1s 1 ease-in-out
 	z-index 9999
-	//box-shadow: 0px 3px 8px #6f6f6f
+	box-shadow: 0px 3px 8px #bebebe
 	.header__logo
 		background-image url('../img/logo-dark.png') 
 	.header-nav
@@ -170,7 +208,38 @@ h2,h3,h4,.span_h2
 		color red
 	.header__toggle
 		color black
-		
+
+.shrinkUp
+	position fixed!important
+	top 0
+	left 0
+	background white!important
+	width 100%
+	margin 0
+	z-index 9999
+	transform translateY(-100%)!important
+	transition all 1s
+
+.shrinkPanel
+	position fixed!important
+	bottom 0
+	left 0
+	z-index 9999
+	animation:  slideInUp  1s 1 ease-in-out
+	width 100%
+.shrinkPanelUp
+	position inherit!important
+	bottom 0
+	left 0
+	//transform translateY(100%)!important
+	transition all 1s
+	width 100%
+
+
+.header,.panel
+	transform translateX(0%)
+	
+
 input,textarea
 	border 0px
 	padding 10px 15px
@@ -263,12 +332,14 @@ table
 .filter--light
 	background #f9f9f9
 .block-header
-	background red
-	flex(mid)
-	color white 
-	padding 17px
-	font-size 18px
 	up()
+	flex(mid)
+	//background blue
+	background: #f6f6f6;
+	color black
+	padding 15px
+	font-size 16px
+	//border 2px solid blue
 .block-header--blue
 	background blue
 .block-content
@@ -297,6 +368,7 @@ table
 	margin-bottom 20px
 	display inline-bloc
 .table_price
+	margin-top 20px
 	tr
 		td
 			&:nth-child(1)
@@ -341,8 +413,10 @@ table
 		font-size 14px
 
 .video
+	+below(768px)
+		height 300px
 	width 100%
-	height 300px
+	height 500px
 	margin-top 20px
 	iframe
 		height 100%
@@ -393,9 +467,24 @@ table
 		fl()
 	input,textarea
 		margin-bottom 20px
+	background #008000
+	padding 60px 60px 20px
+	position relative
+	+below(768px)
+		padding 20px
+		padding-top 40px
+	.wpcf7-form-control-wrap
+		input 
+			width 100%
+	.wpcf7-not-valid-tip
+		color white
+		margin-bottom -20px
+		margin-top -10px
+	.wpcf7-response-output
+		display none!important
 .b-modal
-	background grey!important
-	opacity 1 !important
+	//background grey!important
+	//opacity 1 !important
 	z-index 9999!important
 .modal
 	+below(768px)
@@ -404,24 +493,100 @@ table
 	margin-top 40px
 	width 400px
 	display none
-	background grey
-	padding 30px 20px
-	br(4px) 
+	background white
 	position relative
+	text-align center
 	.icon-times
 		position absolute
 		top 10px
 		right 10px
 		font-size 22px
 		cp()
-
+		color #606160
+	input
+		margin-bottom 10px
+		br(5px)
+	.btn
+		background green
+		color white
+		border 0px
+		width 100% !important
+.modal__good-phone
+	font-size 26px
+	margin 20px 0 
+	font-weight 700 
+.modal__good
+	flex(mid)
+	fl()
+	fw()
+	padding 25px 0
+	i
+		color green
+		padding 20px
+		&:before
+			font-size 80px
+	+below(768px)
+		padding 10px 0px
+.modal__good-icon
+	margin-bottom 20px 
+.modal__good-text
+	up()
+	font-weight 700
+	font-size 28px 
+.modal__good-text--small
+	font-size 16px
+.modal-or
+	up()
+	flex(mid)
+	position absolute
+	padding 10px
+	background white
+	left 50%
+	top -30px
+	margin-left -25px
+	width 50px
+	height 50px
+	font-weight 700
+	transform rotate(45deg)
+	+below(768px)
+		width 30px
+		height 30px
+		top -15px
+		margin-left -15px
+		
+	i
+		transform rotate(-45deg)
+		&:before
+			font-size 24px
+			color #008000
 .breadcrumbs
 	+below(768px)
 		display none 
 	margin-top 20px
 	color black
-	background white
+	background #f4f4f4
 	padding 10px 
 	span
 		color blue
+strong
+	color red 
+.content__left
+	li
+		margin-bottom 10px
+.star__reting
+	+below(768px)
+		display none
+
+.get-modal
+	cp()
+.jivo-cbenabled
+	+below(768px)
+		display none!important
+		z-index 1!important
+
+.awards
+	img
+		margin 20px auto
 		
+.lazyYT-image-loaded
+	background-size: 140% 120%;

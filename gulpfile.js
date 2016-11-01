@@ -241,7 +241,6 @@ function errorhandler(a) {
     this.emit('end');
 };
 
-//useref
 gulp.task('make', function () {
    
   var assets = useref.assets();
@@ -261,6 +260,7 @@ gulp.task('make', function () {
       .pipe(useref())
       .pipe(gulp.dest('dist'));
 });
+
 
 // beauty html
 gulp.task('beauty',function(){

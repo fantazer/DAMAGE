@@ -17,13 +17,24 @@ mixin footer()
 
 	.modal
 		.icon-times
-		.modal-wraper
-			.type.type--md Оформление заявки
-			form(action="#")
-				input(type="text" placeholder="Ваше имя")
-				input(type="phone" placeholder="Ваше телефон")
-				input(type="email" placeholder="Ваша почта")
-				textarea(name="", cols="30", rows="10" placeholder="Ваше сообщение")
-				button.btn.btn--lg Отправить
+		.modal-cont
+			.modal__good
+				.modal__good-icon
+					i.flaticon-check-mark
+				.modal__good-text Отлично
+				.modal__good-text--small Остался один шаг
+				.modal__good-text--small и мы решим вашу проблему
+				.modal__good-phone 
+					a(href="tel:8(499)391-84-10") 8(499)391-84-10
+				
+			.modal-wraper
+				.modal-or 
+					//i.flaticon-down-arrow
+				.modal-form
+					form(action="#")
+						input(type="text" placeholder="Ваше имя")
+						input(type="phone" placeholder="Ваше телефон")
+						input(type="email" placeholder="Ваша почта")
+						button.btn.btn--lg Отправить
 
 

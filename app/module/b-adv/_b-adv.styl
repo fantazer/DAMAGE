@@ -4,7 +4,8 @@
 		display none!important
 	background white
 	margin-bottom 20px
-	display block!important 
+	display block!important
+	box-shadow 0px 0px 10px #e8e2e2
 .adv__el
 	+below(996px)
 		justify-content flex-start
@@ -12,11 +13,13 @@
 		color red
 		font-size 46px
 		font-family: Flaticon;
-	padding 20px
+		&:before
+			font-size 32px	
+	padding 10px 20px
 	border-bottom 1px solid grey
 	flex(between)
 .adv__number
-	font-size 28px
+	font-size 22px
 	color black
 	padding 0 20px
 	font-weight 700

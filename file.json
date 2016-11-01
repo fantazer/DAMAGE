@@ -21,7 +21,8 @@
 		"b-calc":"b-calc",
 		"b-positive":"b-positive",
 		"b-call":"b-call",
-		"b-img":"b-img"
+		"b-img":"b-img",
+		"b-attantion":"b-attantion"
 	},
 	"page":{
 		"index":"index"

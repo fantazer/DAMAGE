@@ -22,6 +22,7 @@
     "owl.carousel": "OwlCarousel2#^2.1.5",
     "jquery-sticky": "^1.0.3",
     "stacktable.js": "^1.0.1",
-    "bPopup": "bpopup#^0.11.0"
+    "bPopup": "bpopup#^0.11.0",
+    "animsition": "^4.0.2"
   }
 }

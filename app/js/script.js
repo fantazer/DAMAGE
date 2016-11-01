@@ -1,5 +1,30 @@
 $(document).ready(function(){
 
+	//load video
+	$('.js-lazyYT').lazyYT(); 
+
+	$(".animsition").animsition({
+	    inClass: 'fade-in',
+	    outClass: 'fade-out',
+	    inDuration: 1500,
+	    outDuration: 800,
+	    linkElement: 'a',
+	    // e.g. linkElement: 'a:not([target="_blank"]):not([href^="#"])'
+	    loading: false,
+	    loadingParentElement: 'body', //animsition wrapper element
+	    loadingClass: 'animsition-loading',
+	    loadingInner: '', // e.g '<img src="loading.svg" />'
+	    timeout: false,
+	    timeoutCountdown: 100,
+	    onLoadEvent: true,
+	    browser: [ 'animation-duration', '-webkit-animation-duration'],
+	    // "browser" option allows you to disable the "animsition" in case the css property in the array is not supported by your browser.
+	    // The default setting is to disable the "animsition" in a browser that does not support "animation-duration".
+	    overlay : false,
+	    overlayClass : 'animsition-overlay-slide',
+	    overlayParentElement : 'body',
+	    transition: function(url){ window.location.href = url; }
+	  });
 	//modal
 	$('.get-modal').click(function(){
 			$('.modal').bPopup({
@@ -68,6 +93,7 @@ $(document).ready(function(){
 		 	},
 		 	
 	  },
+	  	lazyLoad: true,
  		margin:50,
 	 	autoHeight : true,
 	 	dots: false,
@@ -96,24 +122,54 @@ var defaultSlider = function(element){
 defaultSlider(".slider");
 defaultSlider(".questions--wraper");
 	//animate header
-	var shrinkHeader = 20;
+	var shrinkHeader = 300;
+	var needScroll  = false;
 	$(window).scroll(function() {
 	    var scroll = $(this).scrollTop();
-	      if ( scroll >= shrinkHeader ) {
-	           var heightHeader=$('.header').height();
-	           $('.header').addClass('shrink');
-	           //$('.panel').addClass('shrink');
-	           //$('.panel').css('top',heightHeader+'px');
-	        }
-	        else {
-	            $('.header').removeClass('shrink');
-	            //$('.panel').removeClass('shrink');
-	        }
+	    
+	    if (scroll  > shrinkHeader ) {
+	    	needScroll = true;
+	    } 
+
+      if ( scroll >= shrinkHeader ) {
+           var heightHeader=$('.header').height();
+           var heightHeaderPanel=$('.panel').height();
+           $('.header').addClass('shrink');
+            $('.header').removeClass('shrinkUp');
+
+            $('.panel').addClass('shrinkPanel');
+            $('.panel').removeClass('shrinkPanelUp');
+
+            $('body').css({
+            	paddingTop:heightHeader
+            });
+             $('.content__left').css({
+            	paddingTop:heightHeaderPanel
+            });
+        }
+        else {
+            $('.header').removeClass('shrink');
+            $('.panel').removeClass('shrinkPanel');
+            $('body').css({
+            	paddingTop:"0px"
+            });
+            $('.content__left').css({
+            	paddingTop:0
+            });
+        }
+        if ( scroll <= shrinkHeader &&  scroll >= 100 && needScroll) {
+        	$('.header').addClass('shrinkUp');
+        	$('.panel').addClass('shrinkPanelUp');
+        	needScroll = false;
+        }
+        if ( scroll <=  100 ) {
+        	$('.header').removeClass('shrinkUp');
+        }
 	});
 
 	//Stick panel
-	var heightHeader=$('.header').height();
-	$(".panel").sticky({topSpacing:heightHeader});
+	
+	//$(".panel").sticky({topSpacing:-300});
 
 	/* ###### For SlideToggle Elements  ######*/
 	var hideToggle = function(targetClick,toggleEl) {
