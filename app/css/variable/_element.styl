@@ -195,6 +195,8 @@ h2,h3,h4,.span_h2
 	animation:  slideInDown  1s 1 ease-in-out
 	z-index 9999
 	box-shadow: 0px 3px 8px #bebebe
+	.header-phone-link
+		color black
 	.header__logo
 		background-image url('../img/logo-dark.png') 
 	.header-nav
@@ -204,6 +206,9 @@ h2,h3,h4,.span_h2
 			color black!important
 	.header__cont
 		color black
+		+below(768px)
+			a
+				color black 
 	.header__logo
 		color red
 	.header__toggle
@@ -235,7 +240,9 @@ h2,h3,h4,.span_h2
 	transition all 1s
 	width 100%
 
-
+.header-phone-link
+	color white
+			
 .header,.panel
 	transform translateX(0%)
 	
