@@ -31,10 +31,11 @@ mixin footer()
 				.modal-or 
 					//i.flaticon-down-arrow
 				.modal-form
-					form(action="#")
-						input(type="text" placeholder="Ваше имя")
-						input(type="phone" placeholder="Ваше телефон")
-						input(type="email" placeholder="Ваша почта")
+					form.validate-form( action="javascript:void(null);")
+						input(type="text" name="name" placeholder="Ваше имя" id="name_form")
+						input(type="text" name="phone" placeholder="Ваш телефон" id="phone_form")
 						button.btn.btn--lg Отправить
-
+	.modal.modal-true
+		.modal-wrap
+			.modal-true-text Ваша заявка принята
 

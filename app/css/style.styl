@@ -13,9 +13,12 @@ rupture.scale = 0 480px 768px 992px 1200px
 rupture.scale-names = 'xs' 'sm' 'md' 'lg'
 jeet.gutter = 1
 
+
+		
 body
 	font-size 15px
-	font-family 'Open Sans'
+	//font-family 'Open Sans'
+	font-family Verdana, Geneva, sans-serif!important
 	overflow-x hidden
 	//color #616161
 	background #fbfbfb 
@@ -63,7 +66,7 @@ p,li
 		font-size 14px 
 	margin-bottom 30px
 	font-size 16px
-	line-height 24px
+	line-height  2.0
 ul
 	margin-bottom 30px
 .st-head-row
@@ -77,6 +80,62 @@ ul
 .table_price
 	span
 		font-size 12px
+		
+.search-wrap
+	flex(mid)
+	margin-bottom 20px
+
+.serchform-line
+	width 100%
+
+.serch-btn
+	background #383345
+	color white
+
+.item-found
+	display block
+	border-bottom 1px solid #dddae2
+
+.download
+	f()
+	border 1px solid #efebde
+	margin-bottom: 30px
+
+.download-icon
+	width 80px
+	padding 20px
+
+.download-cont
+	width 100%
+	background #efebde
+	display flex
+	align-items center
+	padding 20px
+	font-size 18px
+	color black
+
+.table_price
+	border 0
+	box-shadow 0px 4px 2px #e0e0e0
+	margin 60px 0
+	
+.table_price tbody tr:nth-child(odd) td, .table_price tbody tr:nth-child(odd) th
+	background-color	 #f3f3f3
+
+
+.table_price td, .table_price th
+		border-top 0
+		padding 15px
+.table_price tr td:nth-child(2) p
+	font-size 14px
+
+.table_price span
+	margin-right 5px
+	
+table.table_price p
+	font-size 14px
+
+
 @import "../module/**/*"
 
 

@@ -8,10 +8,9 @@
 		<meta name="format-detection" content="telephone=no" />
 		<meta meta="meta" name="theme-color" content="#263086" />
 		<title>Document</title>
+		<link rel="icon" type="image/vnd.microsoft.icon" href="img/favicon.ico" />
 		<link rel="stylesheet" href="css/vendor.css">
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="http://webfonts.ru/import/ristrettopro.css" />
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic,cyrillic-ext" />
+		<!--link(rel="stylesheet", href="http://webfonts.ru/import/ristrettopro.css")-->
 		<!--link(rel="stylesheet", href="http://webfonts.ru/import/sansus.css")-->
 	</head>
 
@@ -448,11 +447,11 @@
 				<div class="contact__form">
 					<div class="contact__time">Ответим вам черз 3 минуты</div>
 					<div class="type type--lg">Свяжитесь с нами</div>
-					<form action="#">
-						<input type="text" placeholder="Ваше имя" />
-						<input type="phone" placeholder="Ваше телефон" />
-						<input type="email" placeholder="Ваша почта" />
-						<textarea name="" cols="30" rows="10" placeholder="Ваше сообщение"></textarea>
+					<form action="javascript:void(null);" class="validate-form validate-form--contact">
+						<input type="text" name="name" placeholder="Ваше имя" id="name_form" />
+						<input type="text" name="phone" placeholder="Ваш телефон" id="phone_form" />
+						<input type="text" name="mail" placeholder="Ваша почта" id="email_form" />
+						<textarea name="" cols="30" rows="10" placeholder="Ваше сообщение" id="text"></textarea>
 						<button class="btn btn--lg">Отправить</button>
 					</form>
 				</div>
@@ -511,17 +510,20 @@
 					<!--i.flaticon-down-arrow-->
 				</div>
 				<div class="modal-form">
-					<form action="#">
-						<input type="text" placeholder="Ваше имя" />
-						<input type="phone" placeholder="Ваше телефон" />
-						<input type="email" placeholder="Ваша почта" />
+					<form action="javascript:void(null);" class="validate-form">
+						<input type="text" name="name" placeholder="Ваше имя" id="name_form" />
+						<input type="text" name="phone" placeholder="Ваш телефон" id="phone_form" />
 						<button class="btn btn--lg">Отправить</button>
 					</form>
 				</div>
 			</div>
 		</div>
 	</div>
+	<div class="modal modal-true">
+		<div class="modal-wrap">
+			<div class="modal-true-text">Ваша заявка принята</div>
+		</div>
+	</div>
 	<!--Include footer-->
 	<script src="js/combined.js"></script>
-	<script src="js/script.js"></script>
 </body>

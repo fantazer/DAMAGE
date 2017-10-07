@@ -1,10 +1,10 @@
 //! block b-positive
 .positive
 	+below(768px)
+		display none
 		i:before
 			font-size 60px
 	background blue 
-	background blue
 	padding 20px 30px
 	.span_h2
 		margin-bottom 20px
@@ -32,6 +32,8 @@
 	border 1px solid white
 	width 48%
 .positive-el__icon
+	+below(768px)
+		margin-right 0
 	margin-right 20px
 	color white
 .positive-el__title

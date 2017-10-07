@@ -16,7 +16,7 @@ $(document).ready(function(){
 	//load video
 	$('.js-lazyYT').lazyYT(); 
 
-	$(".animsition").animsition({
+/*	$(".animsition").animsition({
 	    inClass: 'fade-in',
 	    outClass: 'fade-out',
 	    inDuration: 1500,
@@ -37,10 +37,10 @@ $(document).ready(function(){
 	    overlayClass : 'animsition-overlay-slide',
 	    overlayParentElement : 'body',
 	    transition: function(url){ window.location.href = url; }
-	  });
+	  });*/
 	//modal
 	$('.get-modal').click(function(){
-			$('.modal').bPopup({
+			$('.modal-order').bPopup({
 				closeClass:'icon-times',
 					position:['auto','auto'], // position center
 					follow: [true,false],
@@ -92,7 +92,7 @@ $(document).ready(function(){
 	$('.table_price').stacktable();
 
 	//Clients
-	$(".client").owlCarousel({
+	/*$(".client").owlCarousel({
 		items:4,
 		responsive : {
 	 		0:{
@@ -117,8 +117,8 @@ $(document).ready(function(){
 			navText:['<span class="icon-angle-left"></span>','<span class="icon-angle-right"></span>']
 	 	}
 	);
-
-var defaultSlider = function(element){
+*/
+/*var defaultSlider = function(element){
 	$(element).owlCarousel({
 		items:1,
 	 	autoHeight : true,
@@ -133,7 +133,7 @@ var defaultSlider = function(element){
 }
 
 defaultSlider(".slider");
-defaultSlider(".questions--wraper");
+defaultSlider(".questions--wraper");*/
 	//animate header
 	var shrinkHeader = 300;
 	var needScroll  = false;
@@ -211,6 +211,58 @@ defaultSlider(".questions--wraper");
 	setInterval(function() {
 		$('.panel__get').removeClass('shake')
 	}, 28000);	
+
+
+	//validate
+		$('.validate-form').each(function() {   
+		var curentForm = $(this);
+    $(this).validate({        
+		    	rules:{ //правила для полей 
+						name:{
+							required:true,
+						},
+						phone:{
+							required:true,
+							minlength:5,
+							number:true
+						},
+					
+					},
+					messages:{
+						name:{
+							required: 'Обязательное поле',
+						},
+						phone:{
+							required: 'Обязательное поле',
+							number:'Введите правильный номер',
+							minlength:'Номер должен быть длиннее',
+						},
+					
+					},
+					submitHandler : function(form){ 
+						$.ajax({ //отправка ajax
+						            type: "POST",
+						            url: "/wp-content/themes/DAMAGE/sender.php",
+						            data: $(form).serialize(),
+						            timeout: 3000,
+						          });
+							$('.modal-close').click(); // автозакрытие окна
+							setTimeout(function(){
+										$('.modal-true').bPopup({
+											closeClass:'modal-close',
+												position:['auto','auto'], // position center
+												follow: [true,true],
+												autoClose: 2000
+										}); 
+										$(':input','.validate-form') //очитска формы от данных
+										  .not(':button, :submit, :reset, :hidden')
+										  .val('')
+										  .removeAttr('checked')
+										  .removeAttr('selected')
+							},2000)
+				}
+		    });
+		});
 	/* ###### init RangeSLider  ######*/
 	/* ###### bower i --save-dev nouislider  ######*/
 	/* ###### https://gist.github.com/fantazer/2bdc4e6a63708e143718ffa7c32eae17  ######*/

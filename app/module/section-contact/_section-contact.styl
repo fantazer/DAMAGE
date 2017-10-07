@@ -7,17 +7,21 @@
 	flex(between)
 	align-items initial
 	.type
+		+below(768px)
+			text-align center
 		text-align left
 .contact__form
 	+below(768px)
 		width 100%
 		order 2
+		padding 20px
 		button
 			width 100%
 	order 1
 	width 48%
-	padding 30px
+	padding 10px
 	background #f0f0f0
+	padding 40px
 	input
 		width 100%
 		margin-bottom 20px
@@ -27,6 +31,9 @@
 .section__contact
 	background grey
 .contact__text
+	+below(768px)
+		p
+			display none
 	padding 30px
 	background #f0f0f0
 	margin-bottom 20px
@@ -47,19 +54,19 @@
 	+below(768px)
 		font-size 12px
 	up()
-	font-size 20px
+	font-size 28px
 	color white
 	background red
 	text-align center
 	padding-bottom 0px
-	padding 10px
+	padding 25px
 	
 .contact__time
 	+below(768px)
 		font-size 12px
 		display block 
 	up()
-	font-size 20px
+	font-size 28px
 	color white
 	background red
 	text-align center
